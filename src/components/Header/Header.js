@@ -11,6 +11,9 @@ import "./Header.css"
 const Header = () => (
   <header className="header">
     <h1 className="header__title">Lost In Japan</h1>
+    <h1 className="header__subtitle" lang="ja">
+      ロストインジャパン
+    </h1>
     <nav className="header__navbar">
       <div className="header__navbar__left">
         <Link to="/">Home</Link>
