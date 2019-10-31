@@ -1,0 +1,20 @@
+.header {
+  text-align: center;
+}
+
+.header__title {
+  font-weight: normal;
+  margin-bottom: 4rem;
+}
+
+.header__navbar {
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header__navbar__left > a:not(:first-child):not(:last-child) {
+  margin: 0 2em;
+}

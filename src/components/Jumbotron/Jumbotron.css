@@ -1,0 +1,17 @@
+@import "../../core/css/brand.css";
+
+.jumbotron {
+  background-color: var(--color-white-linen);
+  padding: 3rem 2rem;
+  border-radius: var(--border-radius-lg);
+}
+
+.jumbotron__title {
+  font-size: 2rem;
+  font-weight: normal;
+  width: 80%;
+}
+
+.jumbotron__subtitle {
+  margin-bottom: 0;
+}

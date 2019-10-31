@@ -1,0 +1,6 @@
+@import "../../core/css/brand.css";
+
+.highlightedText {
+  color: var(--color-tan-hide);
+  font-weight: bold;
+}
