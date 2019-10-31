@@ -1,3 +1,7 @@
+/* ==========================================================================
+   Header and Misc.
+   ========================================================================== */
+
 .header {
   text-align: center;
 }
@@ -6,13 +10,9 @@
   color: hsl(0, 0%, 20%);
 }
 
-.header__title::before {
-  content: "⤜";
-}
-
-.header__title::after {
-  content: "⤛";
-}
+/* ==========================================================================
+   Header title
+   ========================================================================== */
 
 .header__title {
   font-weight: normal;
@@ -26,6 +26,14 @@
   letter-spacing: 0;
 }
 
+.header__title::before {
+  content: "⤜";
+}
+
+.header__title::after {
+  content: "⤛";
+}
+
 .header__title:hover::before {
   display: inline-block;
   animation: arrow-left 1s;
@@ -36,12 +44,20 @@
   animation: arrow-right 1s;
 }
 
+/* ==========================================================================
+   Header subtitle
+   ========================================================================== */
+
 .header__subtitle {
   font-family: monospace;
   font-size: 1.2rem;
   margin-bottom: 4rem;
   color: hsl(0, 0%, 46%);
 }
+
+/* ==========================================================================
+   Header navbar
+   ========================================================================== */
 
 .header__navbar {
   font-size: 0.85rem;
@@ -55,6 +71,9 @@
   margin: 0 2em;
 }
 
+/* ==========================================================================
+   Header title animation
+   ========================================================================== */
 @keyframes arrow-left {
   from {
     transform: translateX(-10px);

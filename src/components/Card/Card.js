@@ -1,8 +1,6 @@
 /** 3P dependency imports */
 import React from "react"
 
-/** Component dependencies */
-
 /** styles */
 import "./Card.css"
 

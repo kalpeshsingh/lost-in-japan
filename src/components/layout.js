@@ -4,10 +4,12 @@
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
-
+/** 3P dependency imports */
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+
+/** styles */
 import "./layout.css"
 
 const Layout = ({ children, type }) => {

@@ -1,5 +1,8 @@
 @import "./../core/css/brand.css";
 
+/* ==========================================================================
+   About section and jumbotron overrides
+   ========================================================================== */
 .about .jumbotron {
   background-color: var(--color-white-lilac);
 }
@@ -9,9 +12,17 @@
   text-transform: uppercase;
 }
 
+/* ==========================================================================
+   Japanese text in header title
+   ========================================================================== */
+
 .about__san {
   font-family: monospace;
 }
+
+/* ==========================================================================
+   About section and content
+   ========================================================================== */
 
 .about-section {
   display: flex;
@@ -21,6 +32,10 @@
 .about-section__author {
   flex: 1;
 }
+
+/* ==========================================================================
+   About thumbnail
+   ========================================================================== */
 
 .about-section__thumbnail {
   background-image: url("./../images/kalpesh_singh.jpg");

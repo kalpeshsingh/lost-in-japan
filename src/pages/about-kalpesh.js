@@ -1,12 +1,18 @@
+/** 3P dependency imports */
 import React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 
+/** Component dependencies */
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/Header/Header"
 import Jumbotron from "../components/Jumbotron/Jumbotron"
-import "./About.css"
+
+/** constants **/
 import PAGE_TYPE from "../core/constants/pageType"
+
+/** styles */
+import "./About.css"
 
 const About = () => (
   <Layout type={PAGE_TYPE.ABOUT}>
@@ -53,7 +59,8 @@ const About = () => (
           <a
             href="https://www.youtube.com/channel/UCHL9bfHTxCMi-7vfxQ-AYtg"
             target="_blank"
-          >{" "}
+          >
+            {" "}
             this
           </a>{" "}
           and few random videos and channels on YouTube were always educational
