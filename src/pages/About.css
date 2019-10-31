@@ -1,0 +1,47 @@
+@import "./../core/css/brand.css";
+
+.about .jumbotron {
+  background-color: var(--color-white-lilac);
+}
+
+.about .jumbotron__subtitle {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.about__san {
+  font-family: monospace;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-section__author {
+  flex: 1;
+}
+
+.about-section__thumbnail {
+  background-image: url("./../images/kalpesh_singh.jpg");
+  display: block;
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: relative;
+  border: solid 5px hsl(0, 0%, 100%);
+}
+
+.about-section__thumbnail::after {
+  content: " ";
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: #fbf1f1;
+  border-radius: 50%;
+  position: absolute;
+  right: -20px;
+  z-index: -1;
+}

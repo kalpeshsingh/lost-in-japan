@@ -43,7 +43,7 @@ template {
 }
 a {
   background-color: transparent;
-  color: hsl(0, 0%, 20%);
+  color: hsla(222, 100%, 46%, 1);
   text-decoration: none;
   -webkit-text-decoration-skip: objects;
 }
@@ -581,17 +581,21 @@ pre tt:after {
 /* ==========================================================================
    Custom
    ========================================================================== */
-#gatsby-focus-wrapper {
+
+.homepage,
+.about {
   display: grid;
   grid-template-columns: repeat(5, 20%);
   grid-template-rows: 2rem auto 2rem;
 }
 
-.homepage {
+.homepage main,
+.about main {
   grid-column: 2 / 5;
   grid-row-start: 2;
 }
 
-.homepage .jumbotron {
+.homepage .jumbotron,
+.about .jumbotron {
   margin-bottom: 3rem;
 }
