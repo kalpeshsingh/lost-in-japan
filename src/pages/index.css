@@ -1,0 +1,22 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-gap: 1.5rem;
+  margin-bottom: 3rem;
+  height: 10rem;
+}
+
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
+
+.cards .card__image {
+  height: 150px;
+  object-fit: cover;
+}
+
+.homepage__section-title {
+  margin-bottom: 1rem;
+}
