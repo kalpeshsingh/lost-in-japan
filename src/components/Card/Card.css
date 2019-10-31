@@ -1,0 +1,10 @@
+@import "../../core/css/brand.css";
+
+.card__image {
+  border-radius: var(--border-radius-lg);
+  margin-bottom: 0.5rem;
+}
+
+.card__title {
+  font-size: 0.8rem;
+}
