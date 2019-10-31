@@ -9,7 +9,7 @@
 .jumbotron__title {
   font-size: 2rem;
   font-weight: normal;
-  width: 80%;
+  margin-bottom: 1rem;
 }
 
 .jumbotron__subtitle {
