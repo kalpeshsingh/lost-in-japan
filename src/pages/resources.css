@@ -16,9 +16,9 @@
 }
 
 .resources__download-section {
+  display: flex;
   align-items: center;
   margin-bottom: 4rem;
-  display: flex;
 }
 
 .resources__download-title {
