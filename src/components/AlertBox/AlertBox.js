@@ -8,8 +8,8 @@ export const ALERT_TYPES = {
   WARN: "warning",
 }
 
-const AlertBox = ({ children, type }) => {
-  return <div className={`alert alert--${type}`}>{children}</div>
+const AlertBox = ({ children, type, className }) => {
+  return <div className={`alert alert--${type} ${className}`}>{children}</div>
 }
 
 export default AlertBox

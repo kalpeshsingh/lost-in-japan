@@ -7,5 +7,48 @@
   color: var(--color-secondary);
   margin-bottom: 2rem;
   font-size: 0.8rem;
+  line-height: 1.5;
   font-weight: normal;
+}
+
+.resources__alertBox {
+  margin-bottom: 1rem;
+}
+
+.resources__download-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.resources__download-title {
+  margin-bottom: 0.5rem;
+}
+
+.resources__download-desc {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.resources__icon {
+  margin-bottom: 0;
+  width: 20%;
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+
+.resources__icon figure {
+  margin-bottom: 0;
+}
+
+.resources__icon figcaption {
+  font-size: 0.8rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.resources__hint {
+  font-size: 0.85rem;
+  margin-bottom: 4rem;
 }
