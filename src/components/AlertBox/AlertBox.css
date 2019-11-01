@@ -1,0 +1,23 @@
+@import "./../../core/css/brand.css";
+
+.alert {
+  font-size: 0.75rem;
+  line-height: 1.6;
+  padding: 1rem;
+  border-radius: var(--border-radius-sm);
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-left: solid var(--border-radius-sm) #0c5460;
+}
+
+.alert--warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-left: solid var(--border-radius-sm) #ffdc77;
+}
+
+.alert--info {
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-left: solid var(--border-radius-sm) #0c5460;
+}
