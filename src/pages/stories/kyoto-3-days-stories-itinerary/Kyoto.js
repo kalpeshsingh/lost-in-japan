@@ -14,7 +14,7 @@ import "./../stories.css"
 
 const Kyoto = () => (
   <Layout type={PAGE_TYPE.STORY}>
-    <SEO title="Kyoto Stories" />
+    <SEO title="Kyoto | Stories" />
     <Header />
     <div className="page-container">
       <aside className="page-container__left">
@@ -103,7 +103,7 @@ const Kyoto = () => (
           I went to the hostel which was only 3 minutes walk from the station. I
           set an alarm for 06:00 AM and went to sleep.
         </p>
-        <h2>Day 8</h2>
+        <h2 className="page-container__heading">Day 8</h2>
 
         <p>
           I woke up at 06:00 AM and got ready by 07:00 AM. I had my breakfast
@@ -151,7 +151,7 @@ const Kyoto = () => (
           long and it was interesting to learn about Japanses culture from an
           outsider who was living here for more than 1.5 years.
         </p>
-        <h3>Day 9 </h3>
+        <h2 className="page-container__heading">Day 9 </h2>
         <p>No entry</p>
       </div>
     </div>
