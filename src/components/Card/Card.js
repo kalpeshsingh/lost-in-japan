@@ -1,5 +1,6 @@
 /** 3P dependency imports */
 import React from "react"
+import { Link } from "gatsby"
 
 /** styles */
 import "./Card.css"
@@ -7,11 +8,11 @@ import "./Card.css"
 const Card = ({ title, subtitle, image, link }) => {
   console.log("image", image)
   return (
-    <div className="card">
+    <Link to={link} className="card">
       <img className="card__image" src={image} />
       <h1 className="card__title">{title}</h1>
       <h4>{subtitle}</h4>
-    </div>
+    </Link>
   )
 }
 

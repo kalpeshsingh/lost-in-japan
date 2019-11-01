@@ -589,8 +589,19 @@ pre tt:after {
   grid-template-rows: 2rem auto 2rem;
 }
 
+.story {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: 2rem auto 2rem;
+}
+
 .homepage main,
 .about main {
+  grid-column: 2 / 5;
+  grid-row-start: 2;
+}
+
+.story main {
   grid-column: 2 / 5;
   grid-row-start: 2;
 }

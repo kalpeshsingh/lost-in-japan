@@ -1,0 +1,22 @@
+@import "./../../core/css/brand.css";
+
+.page-container {
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  grid-gap: 1rem;
+}
+
+.page-container__left,
+.page-container__right {
+  padding: 1rem;
+}
+
+.page-container__left {
+  background-color: var(--color-link-water);
+  align-self: flex-start;
+}
+
+.page-container__ts {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}

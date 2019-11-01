@@ -80,6 +80,7 @@ const IndexPage = () => (
           </div>
         }
         image={exitTourism}
+        link={"/stories/kyoto-3-days-stories-itinerary"}
       />
     </div>
     {/*<h1>Hi people</h1>*/}
