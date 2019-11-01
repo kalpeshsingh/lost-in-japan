@@ -38,15 +38,21 @@
    ========================================================================== */
 
 .about-section__thumbnail {
-  background-image: url("./../images/kalpesh_singh.jpg");
+  background-image: url("../images/kalpesh_singh_transparent.png"),
+    url("../images/capsule_hotel_background.jpg");
   display: block;
   height: 200px;
   width: 200px;
   background-size: cover;
-  background-position: center;
+  background-position: 40px, center;
   border-radius: 50%;
   position: relative;
   border: solid 5px hsl(0, 0%, 100%);
+  transition: background-position 200ms ease;
+}
+
+.about-section__thumbnail:hover {
+  background-position: top center, center;
 }
 
 .about-section__thumbnail::after {
