@@ -39,6 +39,74 @@ const IndexPage = () => (
         </>
       }
     />
+    <h2 className="homepage__section-title">Trip Highlights</h2>
+    <ul className="homepage__section-highlights">
+      <li>
+        <span role="img" aria-label="Owl">
+          🦉
+        </span>
+        Visited weird cafes (maid and owl cafe){" "}
+      </li>
+      <li>
+        <span role="img" aria-label="Octopus">
+          🐙
+        </span>
+        Accidentally ate octopus{" "}
+      </li>
+      <li>
+        <span role="img" aria-label="Onsen">
+          ♨️
+        </span>
+        <abbr title="A tradition in Japan where people take bath with others">
+          Onsen
+        </abbr>{" "}
+        (I was the only foreigner in that public bath)
+      </li>
+      <li>
+        {" "}
+        <span role="img" aria-label="Shinkansen">
+          🚅
+        </span>{" "}
+        Shinkansen (bullet train)
+      </li>
+      <li>
+        {" "}
+        <span role="img" aria-label="Sushi">
+          🍣
+        </span>{" "}
+        Sushi - first dinner in Japan
+      </li>
+      <li>
+        <span role="img" aria-label="Capsule hotel">
+          🏨
+        </span>
+        Capsule hotel
+      </li>
+      <li>
+        <span role="img" aria-label="Japanese bar">
+          🥃
+        </span>{" "}
+        Authentic Japanese bar
+      </li>
+      <li>
+        <span role="img" aria-label="saké">
+          🍶
+        </span>
+        Tasted Shōchū and saké
+      </li>
+      <li>
+        <span role="img" aria-label="Books shelf">
+          📚{" "}
+        </span>
+        Largest book shelf in Osaka
+      </li>
+      <li>
+        <span role="img" aria-label="Couchsurfing">
+          🛋️{" "}
+        </span>
+        Couchsurfing with Taiwanese family in Tokyo for 3 days
+      </li>
+    </ul>
     <h2 className="homepage__section-title">Preparation</h2>
     <div className="cards">
       <Card

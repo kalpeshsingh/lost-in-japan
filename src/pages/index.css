@@ -20,3 +20,17 @@
 .homepage__section-title {
   margin-bottom: 1rem;
 }
+
+.homepage__section-highlights {
+  columns: 2;
+  column-gap: 4rem;
+  list-style-type: none;
+  margin-left: 0;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  transition: background-color 200ms ease;
+}
+
+.homepage__section-highlights:hover {
+  background-color: hsla(185, 30%, 97%, 1);
+}
