@@ -25,7 +25,7 @@ const Kyoto = () => (
         <div>Day 9</div>
       </aside>
       <div className="page-container__right">
-        <h2>Day 7 </h2>
+        <h2 className="page-container__heading">Day 7 </h2>
         <p>
           {" "}
           I’m done with my breakfast here in my Osaka hostel and waiting for my
