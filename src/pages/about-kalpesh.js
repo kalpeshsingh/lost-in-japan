@@ -69,7 +69,11 @@ const About = () => (
         </p>
         <p>
           I put my energy, time and a few dollars to bring this website and
-          information to you. I don't b̶i̶t̶e̶ mind if you buy me a cup of coffee.
+          information to you. I don't{" "}
+          <span className="about-section__line-through" aria-hidden={"true"}>
+            bite
+          </span>{" "}
+          mind if you buy me a cup of coffee.
         </p>
         <p>
           In case you want to connect or have additional questions, feel free to
