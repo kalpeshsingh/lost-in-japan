@@ -38,18 +38,18 @@ const About = () => (
         </p>
         <p>
           I have planned, visited and maximized my experiences in India doing
-          few solo trips. These trips include Ladakh, Andaman Islands, Meghalaya
+          a few solo trips. These trips include Ladakh, Andaman Islands, Meghalaya
           and many more.
         </p>
         <p>
-          A year and few months back I moved to Bengaluru to join Amazon as
+          A year and a few months back I moved to Bengaluru to join Amazon as
           Software Engineer. At that time, I decided that I should make one more
-          bold move and go for my first International travel and that too solo
+          bold move and go for my first international travel and that too solo
           in a country where food and language will be a challenge. That's how I
-          decided Japan 🇯🇵.
+          decided to go to Japan 🇯🇵.
         </p>
         <p>
-          I was always interested in Japaneses culture and{" "}
+          I was always interested in Japanese culture and{" "}
           <a
             href="https://www.youtube.com/channel/UCqwxJts-6yF33rupyF_DCsA"
             target="_blank"
@@ -63,12 +63,12 @@ const About = () => (
             {" "}
             this
           </a>{" "}
-          and few random videos and channels on YouTube were always educational
-          and inspired to me go to this country and gain first hand experience.
+          and a few random videos and channels on YouTube were always educational
+          and inspired me to go to this country and gain the first-hand experience.
         </p>
         <p>
-          I put my energy, time and few dollars to bring this website and
-          information to you. I don't mind if you buy me a cup of coffee.
+          I put my energy, time and a few dollars to bring this website and
+          information to you. I don't b̶i̶t̶e̶ mind if you buy me a cup of coffee.
         </p>
         <p>
           In case you want to connect or have additional questions, feel free to
@@ -77,7 +77,7 @@ const About = () => (
             Twitter
           </a>{" "}
           or if you are in Bengaluru then let's meet and share stories over
-          beers or coffee.
+          🍻 or ☕ and 🍕.
         </p>
       </div>
       <div className="about-section__thumbnail"></div>
