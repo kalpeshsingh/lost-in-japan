@@ -26,11 +26,10 @@ const Layout = ({ children, type }) => {
   return (
     <div className={type}>
       <main>{children}</main>
-      {/*<footer>*/}
-      {/*© {new Date().getFullYear()}, Built with*/}
-      {/*{` `}*/}
-      {/*<a href="https://www.gatsbyjs.org">Gatsby</a>*/}
-      {/*</footer>*/}
+      <footer className="site-footer">
+        &copy; All the information and photos belongs to site author unless
+        stated.
+      </footer>
     </div>
   )
 }

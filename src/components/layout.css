@@ -588,7 +588,8 @@ pre tt:after {
 .about {
   display: grid;
   grid-template-columns: repeat(5, 20%);
-  grid-template-rows: 2rem auto 2rem;
+  grid-template-rows: 2rem auto auto;
+  min-height: 100vh;
 }
 
 .story {
@@ -611,4 +612,13 @@ pre tt:after {
 .homepage .jumbotron,
 .about .jumbotron {
   margin-bottom: 3rem;
+}
+
+.site-footer {
+  grid-row: 3 / -1;
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  align-self: end;
 }
