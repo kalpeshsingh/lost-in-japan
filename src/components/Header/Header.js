@@ -25,7 +25,10 @@ const HEADER_LINKS = [
 
 const getLinks = () => {
   return HEADER_LINKS.map(item => {
-    if (window && window.location.pathname === item.href) {
+    if (
+      typeof window !== "undefined" &&
+      window.location.pathname === item.href
+    ) {
       return (
         <span
           className="header__navbar__link header__navbar__link--active"
