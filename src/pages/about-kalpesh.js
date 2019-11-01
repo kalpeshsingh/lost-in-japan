@@ -37,8 +37,8 @@ const About = () => (
           experiences to make your trip better.
         </p>
         <p>
-          I have planned, visited and maximized my experiences in India doing
-          a few solo trips. These trips include Ladakh, Andaman Islands, Meghalaya
+          I have planned, visited and maximized my experiences in India doing a
+          few solo trips. These trips include Ladakh, Andaman Islands, Meghalaya
           and many more.
         </p>
         <p>
@@ -63,8 +63,9 @@ const About = () => (
             {" "}
             this
           </a>{" "}
-          and a few random videos and channels on YouTube were always educational
-          and inspired me to go to this country and gain the first-hand experience.
+          and a few random videos and channels on YouTube were always
+          educational and inspired me to go to this country and gain the
+          first-hand experience.
         </p>
         <p>
           I put my energy, time and a few dollars to bring this website and
@@ -77,7 +78,18 @@ const About = () => (
             Twitter
           </a>{" "}
           or if you are in Bengaluru then let's meet and share stories over
-          🍻 or ☕ and 🍕.
+          <span role="img" aria-label="beers">
+            🍻
+          </span>{" "}
+          or{" "}
+          <span role="img" aria-label="coffee">
+            ☕
+          </span>{" "}
+          and{" "}
+          <span role="img" aria-label="pizza">
+            🍕
+          </span>
+          .
         </p>
       </div>
       <div className="about-section__thumbnail"></div>
