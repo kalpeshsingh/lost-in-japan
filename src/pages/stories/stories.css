@@ -12,15 +12,31 @@
 }
 
 .page-container__left {
+  padding-bottom: 0.5rem;
+}
+
+.page-container__left {
   background-color: var(--color-link-water);
   align-self: flex-start;
 }
 
 .page-container__ts {
   font-size: 0.8rem;
-  margin-bottom: 0.5rem;
 }
 
 .page-container__heading {
   margin-bottom: 1rem;
+}
+
+.page-container__left-list-title {
+  margin-bottom: 0.7rem;
+}
+
+.page-container__left-list {
+  font-size: 0.8rem;
+  list-style-type: none;
+  margin-left: 0;
+}
+.page-container__left-list > li {
+  margin-bottom: 0;
 }

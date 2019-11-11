@@ -18,11 +18,13 @@ const Kyoto = () => (
     <Header />
     <div className="page-container">
       <aside className="page-container__left">
+        <div className="page-container__left-list-title">Kyoto, 3 days</div>
+        <ul className="page-container__left-list">
+          <li>Day 7</li>
+          <li>Day 8</li>
+          <li>Day 9</li>
+        </ul>
         <div className="page-container__ts">6 min 41 sec read time </div>
-        Table of Content
-        <div>Day 7</div>
-        <div>Day 8</div>
-        <div>Day 9</div>
       </aside>
       <div className="page-container__right">
         <h2 className="page-container__heading">Day 7 </h2>
