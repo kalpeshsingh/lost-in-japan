@@ -9,6 +9,11 @@ import Header from "./../../../components/Header/Header"
 /** constants **/
 import PAGE_TYPE from "./../../../core/constants/pageType"
 
+/** images **/
+import cover from "./../../../images/kyoto_torii_gate.jpg"
+import kalpeshWithSriLankan from "./../../../images/kalpesh_with_sri_lankan.jpg"
+import kalpeshAtAarashiyama from "./../../../images/kalpesh_arashiyama_forest.jpg"
+
 /** styles **/
 import "./../stories.css"
 
@@ -27,6 +32,10 @@ const Kyoto = () => (
         <div className="page-container__ts">6 min 41 sec read time </div>
       </aside>
       <div className="page-container__right">
+        <figure className="page-container__photo">
+          <img src={cover} />
+          <figcaption>Kiyomizu-dera</figcaption>
+        </figure>
         <h2 className="page-container__heading">Day 7 </h2>
         <p>
           {" "}
@@ -53,11 +62,11 @@ const Kyoto = () => (
           will be fun.
         </p>
         <p>
-          Right now I'm again at Doutor coffee. I had a chicken sandwich and
-          drank a cold coffee. The Nijō castle will close at 05 p.m. so I will
-          visit castle first then Shrine (Money shrine) then Onsen near my
-          guesthouse. Seems like I have to prepare myself for walking because
-          it's Kyoto and its sort of countryside.
+          Right now I'm again at Doutor coffee. I had a chicken sandwich and had
+          a cold coffee. The Nijō castle will close at 05 p.m. so I will visit
+          castle first then Shrine (Money shrine) then Onsen near my guesthouse.
+          Seems like I have to prepare myself for walking because it's Kyoto and
+          its sort of countryside.
         </p>
         <p>
           I was so tired that I couldn't cover the Imperial Palace. Anyway
@@ -90,6 +99,11 @@ const Kyoto = () => (
           He helped me with transport to Arashiyama. He tried to help me in
           English and Japanese.
         </p>
+
+        <figure className="page-container__photo">
+          <img src={kalpeshAtAarashiyama} />
+          <figcaption>Kalpesh at Arashiyama Bamboo forest</figcaption>
+        </figure>
         <p>
           He called the hostel staff and I got my bed. Tommy (owner of hostel )
           explained to me about hostel facilities. He spoke in the style like
@@ -106,7 +120,12 @@ const Kyoto = () => (
           set an alarm for 06:00 AM and went to sleep.
         </p>
         <h2 className="page-container__heading">Day 8</h2>
-
+        <figure className="page-container__photo">
+          <img src={kalpeshWithSriLankan} />
+          <figcaption>
+            Kalpesh with Dashintha (Sri Lankan in Japan), Owl Cafe
+          </figcaption>
+        </figure>
         <p>
           I woke up at 06:00 AM and got ready by 07:00 AM. I had my breakfast
           and left for Arashiyama Bamboo Grove.

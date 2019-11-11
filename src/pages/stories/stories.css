@@ -40,3 +40,12 @@
 .page-container__left-list > li {
   margin-bottom: 0;
 }
+
+.page-container__photo {
+  margin-bottom: 2rem;
+}
+
+.page-container__photo > figcaption {
+    font-size: 0.8rem;
+    color: var(--color-secondary);
+}
