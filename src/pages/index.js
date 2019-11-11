@@ -124,11 +124,11 @@ const IndexPage = () => (
     </div>
 
     <h2 className="homepage__section-title">Read experiences</h2>
-    <div className="cards">
+    <div className="cards cards--experiences">
       <Card
         title={
           <div>
-            <HighlightedText>Tokyo,</HighlightedText> 5 days
+            <HighlightedText>Tokyo,</HighlightedText> Day 1, 2 and 3
           </div>
         }
         image={beforeYouGo}
@@ -136,7 +136,7 @@ const IndexPage = () => (
       <Card
         title={
           <div>
-            <HighlightedText>Osaka,</HighlightedText> 3 days
+            <HighlightedText>Osaka,</HighlightedText> Day 4, 5 and 6
           </div>
         }
         image={duringTravel}
@@ -144,11 +144,19 @@ const IndexPage = () => (
       <Card
         title={
           <div>
-            <HighlightedText>Kyoto,</HighlightedText> 3 days
+            <HighlightedText>Kyoto,</HighlightedText> Day 7, 8 and 9
           </div>
         }
         image={exitTourism}
         link={"/stories/kyoto-3-days-stories-itinerary"}
+      />
+      <Card
+        title={
+          <div>
+            <HighlightedText>Tokyo,</HighlightedText> Day 9, 10 and 11
+          </div>
+        }
+        image={beforeYouGo}
       />
     </div>
     {/*<h1>Hi people</h1>*/}

@@ -6,6 +6,10 @@
   height: 10rem;
 }
 
+.cards.cards--experiences {
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
+}
+
 .cards .card {
   display: flex;
   flex-direction: column;
