@@ -22,6 +22,11 @@ import beforeYouGo from "./../images/japan_airline_ticket.jpg"
 import duringTravel from "./../images/japan_airport_welcome_board.jpg"
 import exitTourism from "./../images/tokyo_station.jpg"
 
+import kyotoCover from "../images/kyoto_card_cover.jpg"
+import osakaCover from "../images/osaka_card_cover.jpg"
+import tokyoCover1 from "../images/tokyo_cover_one.jpg"
+import tokyoCover2 from "../images/tokyo_cover_two.jpg"
+
 const IndexPage = () => (
   <Layout type={PAGE_TYPE.HOMEPAGE}>
     <SEO title="Home" />
@@ -131,7 +136,7 @@ const IndexPage = () => (
             <HighlightedText>Tokyo,</HighlightedText> Day 1, 2 and 3
           </div>
         }
-        image={beforeYouGo}
+        image={tokyoCover1}
       />
       <Card
         title={
@@ -139,7 +144,7 @@ const IndexPage = () => (
             <HighlightedText>Osaka,</HighlightedText> Day 4, 5 and 6
           </div>
         }
-        image={duringTravel}
+        image={osakaCover}
       />
       <Card
         title={
@@ -147,7 +152,7 @@ const IndexPage = () => (
             <HighlightedText>Kyoto,</HighlightedText> Day 7, 8 and 9
           </div>
         }
-        image={exitTourism}
+        image={kyotoCover}
         link={"/stories/kyoto-3-days-stories-itinerary"}
       />
       <Card
@@ -156,7 +161,7 @@ const IndexPage = () => (
             <HighlightedText>Tokyo,</HighlightedText> Day 9, 10 and 11
           </div>
         }
-        image={beforeYouGo}
+        image={tokyoCover2}
       />
     </div>
     {/*<h1>Hi people</h1>*/}

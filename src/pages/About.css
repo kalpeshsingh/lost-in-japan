@@ -4,7 +4,7 @@
    About section and jumbotron overrides
    ========================================================================== */
 .about .jumbotron {
-  background-color: var(--color-white-lilac);
+  background-color: var(--color-athens-grey);
 }
 
 .about .jumbotron__subtitle {

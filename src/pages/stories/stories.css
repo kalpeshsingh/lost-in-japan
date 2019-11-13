@@ -13,6 +13,8 @@
 
 .page-container__left {
   padding-bottom: 0.5rem;
+  margin-top: 1rem;
+  border-radius: var(--border-radius-sm);
 }
 
 .page-container__left {
@@ -46,6 +48,11 @@
 }
 
 .page-container__photo > figcaption {
-    font-size: 0.8rem;
-    color: var(--color-secondary);
+  font-size: 0.8rem;
+  color: var(--color-secondary);
+}
+
+.page-container__right p:first-of-type::first-letter {
+  color: var(--color-crimson);
+  font-size: 2rem;
 }

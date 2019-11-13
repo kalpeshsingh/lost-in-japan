@@ -11,9 +11,10 @@
    Color Schemes
    ========================================================================== */
 :root {
-  --color-tan-hide: hsl(15, 93%, 68%);
-  --color-white-linen: hsl(36, 56%, 96%);
-  --color-white-lilac: hsl(246, 56%, 96%);
-  --color-link-water: hsl(204, 56%, 96%);
-  --color-secondary: hsl(0, 0%, 46%);
+  --bg-layout: hsl(36, 56%, 96%);
+  --color-crimson: crimson;
+  --color-green-white: hsl(90, 22%, 91%);
+  --color-athens-grey: hsl(246, 22%, 91%);
+  --color-link-water: hsl(204, 22%, 91%);
+  --color-secondary: hsl(0, 0%, 35%);
 }

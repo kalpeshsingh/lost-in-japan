@@ -75,7 +75,7 @@
 
 .header__navbar__link--active {
   font-weight: bold;
-  border-bottom: solid 3px var(--color-tan-hide);
+  border-bottom: solid 3px var(--color-crimson);
   padding-bottom: 2px;
 }
 

@@ -43,7 +43,7 @@ template {
 }
 a {
   background-color: transparent;
-  color: hsla(222, 100%, 46%, 1);
+  color: hsl(180, 100%, 24%);
   text-decoration: none;
   -webkit-text-decoration-skip: objects;
 }
@@ -203,7 +203,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 5%);
   font-family: "Arvo", serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -212,8 +212,8 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
-  border: solid 8px #fbefef;
   min-height: 100vh;
+  background-color: var(--bg-layout);
 }
 img {
   max-width: 100%;
