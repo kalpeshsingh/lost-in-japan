@@ -51,6 +51,11 @@ a:active,
 a:hover {
   outline-width: 0;
 }
+a:focus {
+  outline: 2px hsl(180, 100%, 24%);
+  outline-offset: 3px;
+  outline-style: dashed;
+}
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
