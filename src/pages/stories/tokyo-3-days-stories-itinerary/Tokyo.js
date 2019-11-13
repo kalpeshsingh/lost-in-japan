@@ -40,6 +40,15 @@ const Kyoto = () => (
           <img src={cover} />
           <figcaption>Kiyomizu-dera</figcaption>
         </figure>
+
+        <p>
+          I’m sitting in one area (a place where people have their lunch) of the
+          Yasukuni shrine and writing my two days of experience. I wanted to
+          write down my experiences daily but I had to walk a lot in the heat
+          (33 °C - 35 °C) and then I love to sleep when I reach my host’s house.
+          So far I've overcome challenges like transport and food (only 40%
+          solved). Rest details under respective days.
+        </p>
         <h2 id="day1" className="page-container__heading">
           Day 1{" "}
         </h2>
