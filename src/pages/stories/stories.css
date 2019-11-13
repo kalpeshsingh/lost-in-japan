@@ -54,5 +54,9 @@
 
 .page-container__right p:first-of-type::first-letter {
   color: var(--color-crimson);
-  font-size: 2rem;
+  margin-right: 0;
+  float: left;
+  font-size: 2.5rem;
+  line-height: 1.4rem;
+  font-weight: 700;
 }
