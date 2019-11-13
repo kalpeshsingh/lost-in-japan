@@ -137,6 +137,7 @@ const IndexPage = () => (
           </div>
         }
         image={tokyoCover1}
+        link={"/stories/tokyo-3-days-stories-itinerary"}
       />
       <Card
         title={
@@ -145,6 +146,7 @@ const IndexPage = () => (
           </div>
         }
         image={osakaCover}
+        link={"/stories/osaka-3-days-stories-itinerary"}
       />
       <Card
         title={
@@ -158,19 +160,13 @@ const IndexPage = () => (
       <Card
         title={
           <div>
-            <HighlightedText>Tokyo,</HighlightedText> Day 9, 10 and 11
+            <HighlightedText>Tokyo,</HighlightedText> Day 10 and 11
           </div>
         }
         image={tokyoCover2}
+        link={"/stories/tokyo-last-days"}
       />
     </div>
-    {/*<h1>Hi people</h1>*/}
-    {/*<p>Welcome to your new Gatsby site.</p>*/}
-    {/*<p>Now go build something great.</p>*/}
-    {/*<div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>*/}
-    {/*<Image />*/}
-    {/*</div>*/}
-    {/*<Link to="/page-2/">Go to page 2</Link>*/}
   </Layout>
 )
 

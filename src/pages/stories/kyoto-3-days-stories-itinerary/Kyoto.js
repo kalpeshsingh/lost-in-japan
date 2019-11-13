@@ -37,7 +37,7 @@ const Kyoto = () => (
           <figcaption>Kiyomizu-dera</figcaption>
         </figure>
         <h2 id="day7" className="page-container__heading">Day 7 </h2>
-        <p>
+        <p className="drop-caps">
           {" "}
           I’m done with my breakfast here in my Osaka hostel and waiting for my
           towel to dry. It was time to leave Osaka and explore Nara and Kyoto
@@ -126,7 +126,7 @@ const Kyoto = () => (
             Kalpesh with Dashintha (Sri Lankan in Japan), Owl Cafe
           </figcaption>
         </figure>
-        <p>
+        <p className="drop-caps">
           I woke up at 06:00 AM and got ready by 07:00 AM. I had my breakfast
           and left for Arashiyama Bamboo Grove.
         </p>
