@@ -117,14 +117,17 @@ const IndexPage = () => (
       <Card
         title={<HighlightedText>Before you go</HighlightedText>}
         image={beforeYouGo}
+        link={"/preparation/before-you-go"}
       />
       <Card
-        title={<HighlightedText>During travel</HighlightedText>}
+        title={<HighlightedText>Documentations</HighlightedText>}
         image={duringTravel}
+        link={"/preparation/documentation"}
       />
       <Card
         title={<HighlightedText>Exit tourism</HighlightedText>}
         image={exitTourism}
+        link={"/preparation/exit-tourism"}
       />
     </div>
 

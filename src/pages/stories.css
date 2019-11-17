@@ -1,4 +1,4 @@
-@import "./../../core/css/brand.css";
+@import "../core/css/brand.css";
 
 .page-container {
   display: grid;

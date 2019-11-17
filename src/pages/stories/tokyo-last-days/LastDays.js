@@ -11,9 +11,9 @@ import PAGE_TYPE from "./../../../core/constants/pageType"
 
 
 /** styles **/
-import "./../stories.css"
+import "../../stories.css"
 
-const Kyoto = () => (
+const TokyoLastDays = () => (
   <Layout type={PAGE_TYPE.STORY}>
     <SEO title="Osaka | Stories" />
     <Header />
@@ -64,4 +64,4 @@ const Kyoto = () => (
   </Layout>
 )
 
-export default Kyoto
+export default TokyoLastDays

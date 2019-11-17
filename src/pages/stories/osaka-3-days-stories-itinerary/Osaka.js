@@ -13,7 +13,7 @@ import PAGE_TYPE from "./../../../core/constants/pageType"
 import cover from "./../../../images/kyoto_torii_gate.jpg"
 
 /** styles **/
-import "./../stories.css"
+import "../../stories.css"
 
 const Kyoto = () => (
   <Layout type={PAGE_TYPE.STORY}>

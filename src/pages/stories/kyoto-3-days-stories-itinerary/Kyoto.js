@@ -15,7 +15,7 @@ import kalpeshWithSriLankan from "./../../../images/kalpesh_with_sri_lankan.jpg"
 import kalpeshAtAarashiyama from "./../../../images/kalpesh_arashiyama_forest.jpg"
 
 /** styles **/
-import "./../stories.css"
+import "../../stories.css"
 
 const Kyoto = () => (
   <Layout type={PAGE_TYPE.STORY}>
