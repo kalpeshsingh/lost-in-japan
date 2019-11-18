@@ -636,3 +636,47 @@ pre tt:after {
   line-height: 1.4rem;
   font-weight: 700;
 }
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+@media only screen and (max-width: 480px) {
+  .homepage,
+  .about {
+    grid-template-columns: 1rem repeat(3, 1fr) 1rem;
+  }
+  .header__title {
+    font-size: 2rem;
+  }
+  .header__navbar.header__navbar {
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .header__navbar__left {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__navbar__right {
+    margin-top: 1rem;
+    align-self: stretch;
+  }
+  .header__navbar__right .filledButton {
+    display: block;
+    padding: 0.5rem;
+  }
+
+  .header__navbar__link--active.header__navbar__link--active {
+    background-color: var(--color-crimson);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: 0;
+  }
+  .header__navbar__left > .header__navbar__link {
+    padding: 0.5rem;
+  }
+  .site-footer {
+    font-size: 0.6rem;
+  }
+}

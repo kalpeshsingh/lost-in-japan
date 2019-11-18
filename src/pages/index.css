@@ -38,3 +38,20 @@
 .homepage__section-highlights:hover {
   background-color: hsl(185, 22%, 91%);
 }
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+@media only screen and (max-width: 480px) {
+  .homepage .jumbotron {
+    padding: 1rem;
+  }
+  .homepage__section-highlights {
+    columns: 1;
+  }
+  .cards,
+  .cards.cards--experiences {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+}
