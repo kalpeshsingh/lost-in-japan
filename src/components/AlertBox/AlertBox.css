@@ -21,3 +21,13 @@
   background-color: #d1ecf1;
   border-left: solid var(--border-radius-sm) #0c5460;
 }
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+  .alert {
+    font-size: 1rem;
+  }
+}

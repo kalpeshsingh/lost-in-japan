@@ -52,3 +52,16 @@
   font-size: 0.85rem;
   margin-bottom: 4rem;
 }
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+  .resources__subtitle,
+  .resources__download-desc,
+  .resources__icon figcaption,
+  .resources__hint {
+    font-size: 1rem;
+  }
+}
