@@ -64,4 +64,13 @@
   .resources__hint {
     font-size: 1rem;
   }
+  .resources__download-section {
+    flex-direction: column;
+  }
+  .resources__icon {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
 }

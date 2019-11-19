@@ -642,7 +642,8 @@ pre tt:after {
    ========================================================================== */
 @media only screen and (max-width: 480px) {
   .homepage,
-  .about {
+  .about,
+  .story {
     grid-template-columns: 1rem repeat(3, 1fr) 1rem;
   }
   .header__title {
