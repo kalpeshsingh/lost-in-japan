@@ -15,7 +15,7 @@ import "../../stories.css"
 
 const Documentation = () => (
   <Layout type={PAGE_TYPE.STORY}>
-    <SEO title="Documentation | Preparation" />
+    <SEO title="Documentations | Preparation" />
     <Header />
     <div className="page-container">
       <aside className="page-container__left">

@@ -16,7 +16,7 @@ import "./About.css"
 
 const About = () => (
   <Layout type={PAGE_TYPE.ABOUT}>
-    <SEO title="About Kalpesh" />
+    <SEO title="About" />
     <Header />
     <Jumbotron
       title={"About"}

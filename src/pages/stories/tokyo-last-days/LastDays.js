@@ -15,7 +15,7 @@ import "../../stories.css"
 
 const TokyoLastDays = () => (
   <Layout type={PAGE_TYPE.STORY}>
-    <SEO title="Osaka | Stories" />
+    <SEO title="Tokyo | Stories" />
     <Header />
     <div className="page-container">
       <aside className="page-container__left">

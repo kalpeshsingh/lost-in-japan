@@ -14,7 +14,7 @@ import "../../stories.css"
 
 const ExitTourism = () => (
   <Layout type={PAGE_TYPE.STORY}>
-    <SEO title="ExitTourism | Preparation" />
+    <SEO title="Exit Tourism | Preparation" />
     <Header />
     <div className="page-container">
       <aside className="page-container__left">
