@@ -4,8 +4,8 @@ import React from "react"
 /** styles */
 import "./FilledLink.css"
 
-const FilledLink = ({ children }) => (
-  <a href="#" className="filledButton">
+const FilledLink = ({ link, children }) => (
+  <a href={link} className="filledButton">
     {children}
   </a>
 )

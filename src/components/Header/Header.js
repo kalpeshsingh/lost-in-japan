@@ -56,7 +56,9 @@ const Header = () => (
     <nav className="header__navbar">
       <div className="header__navbar__left">{getLinks()}</div>
       <div className="header__navbar__right">
-        <FilledLink>Buy me a coffee ☕</FilledLink>
+        <FilledLink link={"https://www.buymeacoffee.com/kalpeshsingh"}>
+          Buy me a coffee ☕
+        </FilledLink>
       </div>
     </nav>
   </header>
