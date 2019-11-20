@@ -1,2 +1,3 @@
-# lost-in-japan
-My 11 days solo journey
+# Lost In Japan
+
+![Cover photo](src/images/lost_in_japan_cover.jpg)
