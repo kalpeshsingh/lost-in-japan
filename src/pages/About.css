@@ -41,18 +41,23 @@
    About thumbnail
    ========================================================================== */
 
+:root {
+  --thumbnail-dimensions: 13rem;
+}
+
 .about-section__thumbnail {
   background-image: url("../images/kalpesh_singh_transparent.png"),
     url("../images/capsule_hotel_background.jpg");
   display: block;
-  height: 200px;
-  width: 200px;
+  height: var(--thumbnail-dimensions);
+  width: var(--thumbnail-dimensions);
   background-size: cover;
   background-position: 40px, center;
   border-radius: 50%;
   position: relative;
   border: solid 5px hsl(0, 0%, 100%);
   transition: background-position 200ms ease;
+  margin-right: 2rem;
 }
 
 .about-section__thumbnail:hover {
@@ -62,8 +67,8 @@
 .about-section__thumbnail::after {
   content: " ";
   display: block;
-  width: 200px;
-  height: 200px;
+  width: var(--thumbnail-dimensions);
+  height: var(--thumbnail-dimensions);
   background-color: #fbf1f1;
   border-radius: 50%;
   position: absolute;
@@ -77,10 +82,11 @@
 
 @media only screen and (max-width: 480px) {
   .about-section {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
   }
   .about-section__thumbnail {
+    margin-right: 0;
     margin-bottom: 3rem;
   }
   .about-section__author {

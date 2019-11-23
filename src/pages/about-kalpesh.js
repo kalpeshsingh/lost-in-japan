@@ -30,6 +30,7 @@ const About = () => (
       }
     />
     <div className="about-section">
+      <div className="about-section__thumbnail"></div>
       <div className="about-section__author">
         <p>Hello reader, I'm Kalpesh Singh.</p>
         <p>
@@ -96,7 +97,6 @@ const About = () => (
           .
         </p>
       </div>
-      <div className="about-section__thumbnail"></div>
     </div>
   </Layout>
 )
