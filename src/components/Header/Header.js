@@ -14,12 +14,12 @@ const HEADER_LINKS = [
     href: "/",
   },
   {
-    label: "About Kalpesh",
-    href: "/about-kalpesh/",
-  },
-  {
     label: "Resources",
     href: "/resources/",
+  },
+  {
+    label: "About Kalpesh",
+    href: "/about-kalpesh/",
   },
 ]
 
