@@ -12,6 +12,7 @@ import PAGE_TYPE from "../../../core/constants/pageType"
 
 /** styles **/
 import "../../stories.css"
+import List from "../../../components/List/List"
 
 const Documentation = () => (
   <Layout type={PAGE_TYPE.STORY}>
@@ -75,9 +76,12 @@ const Documentation = () => (
             is rough and can help you in a situation where you want to give up a
             few experiences (happens when you travel). I wanted to get ink and
             then realized that it might be unpleasant for Japanese.
-            <h5>Things to consider -</h5>
-            Please be careful and respectful about foreign country's cultural
-            values.
+            <br /> <br />
+            <List
+              list={[
+                "Please be careful and respectful about foreign country's cultural values.",
+              ]}
+            />
           </li>
         </ul>
 
@@ -142,23 +146,13 @@ const Documentation = () => (
           <Link to={"/resources/"}>Resources</Link> section.
         </p>
 
-        <h4>Things to consider - </h4>
-        <ul>
-          <li>
-            {" "}
-            Always check if your prints are fitted on paper and not cut. My 30
-            pages bank statement was cut by one column and I re-printed it
-            again.
-          </li>
-          <li>
-            Go to the consulate/embassy early in the morning, I went at 9:00 AM.
-            They open the business hours at 08:30 AM.
-          </li>
-          <li>
-            The rental agreement is not considered as your proof. Please take
-            other documents.
-          </li>
-        </ul>
+        <List
+          list={[
+            "Always check if your prints are fitted on paper and not cut. My 30 pages bank statement was cut by one column and I re-printed it again.",
+            "Go to the consulate/embassy early in the morning, I went at 9:00 AM. They open the business hours at 08:30 AM.",
+            "The rental agreement is not considered as your proof. Please take other documents.",
+          ]}
+        />
       </div>
     </div>
   </Layout>

@@ -1,0 +1,14 @@
+.list {
+  border-left: solid 5px var(--color-crimson);
+  border-radius: var(--border-radius-sm);
+  padding-left: 1rem;
+}
+
+.list__heading {
+  margin-bottom: 0.5rem;
+}
+
+.list__items {
+  margin-left: 20px;
+  list-style-type: disc;
+}

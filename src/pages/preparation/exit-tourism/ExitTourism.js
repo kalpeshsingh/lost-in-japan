@@ -11,6 +11,7 @@ import PAGE_TYPE from "../../../core/constants/pageType"
 
 /** styles **/
 import "../../stories.css"
+import List from "../../../components/List/List"
 
 const ExitTourism = () => (
   <Layout type={PAGE_TYPE.STORY}>
@@ -43,18 +44,15 @@ const ExitTourism = () => (
           wearing one while writing.
         </p>
 
-        <p>
-          <h4> Things to consider -</h4>
-          <ul>
-            <li>Don’t promise people to purchase stuff abroad</li>
-            <li> See if you can match the shopping with your current needs</li>
-            <li> Research on stuff if they are allowed on the airplane</li>
-            <li>
-              Always tell shoppers that you will take it back to the home
-              country so that they can do extra packing
-            </li>
-          </ul>
-        </p>
+        <List
+          list={[
+            "Don’t promise people to purchase stuff abroad",
+            "See if you can match the shopping with your current needs",
+            "Research on stuff if they are allowed on the airplane",
+            "Always tell shoppers that you will take it back to the home\n" +
+              "              country so that they can do extra packing",
+          ]}
+        />
       </div>
     </div>
   </Layout>

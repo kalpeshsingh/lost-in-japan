@@ -11,6 +11,7 @@ import PAGE_TYPE from "./../../../core/constants/pageType"
 
 /** styles **/
 import "./../../stories.css"
+import List from "../../../components/List/List"
 
 const BeforeYouGo = () => (
   <Layout type={PAGE_TYPE.STORY}>
@@ -113,21 +114,12 @@ const BeforeYouGo = () => (
           visa got approved.
         </p>
 
-        <p>
-          <h4>Things to consider - </h4>
-          <ul>
-            <li>
-              You should have 6 months bank statement till the day before you
-              submit your visa application. Your bank statement should fit into
-              the A4 page. I took the wrong print and the closing balance column
-              was cut.
-            </li>
-            <li>
-              They won’t consider your rent agreement as address proof. Luckily,
-              I have a Bengaluru driving license.
-            </li>
-          </ul>
-        </p>
+        <List
+          list={[
+            "You should have 6 months bank statement till the day before you submit your visa application. Your bank statement should fit into the A4 page. I took the wrong print and the closing balance column was cut.",
+            "They won’t consider your rent agreement as address proof. Luckily, I have a Bengaluru driving license.",
+          ]}
+        />
 
         <p>
           The Japanese consulate in Bangalore is extremely helpful. Directly
@@ -175,21 +167,15 @@ const BeforeYouGo = () => (
           travel plans but a regular small talk doesn’t harm.
         </p>
 
-        <p>
-          <h4>Things to consider - </h4>
-          <ul>
-            <li>
-              Do read the profile and send a personalized request to each travel
-            </li>
-            <li>Keep your request to 3 in a city</li>
-            <li>Talk to them in advance about your schedule and timings</li>
-            <li>
-              Try to live with a family, it will give you a sense of how locals
-              spend their day
-            </li>
-            <li>Bring a gift to your host</li>
-          </ul>
-        </p>
+        <List
+          list={[
+            "Do read the profile and send a personalized request to each travel",
+            "Keep your request to 3 in a city",
+            "Talk to them in advance about your schedule and timings",
+            "Try to live with a family, it will give you a sense of how locals spend their day",
+            "Bring a gift to your host",
+          ]}
+        />
 
         <h2 id="documenting-experience" className="page-container__heading">
           Documenting experience
@@ -284,29 +270,14 @@ const BeforeYouGo = () => (
           conversion fee every time and it is not worth.
         </p>
 
-        <p>
-          <h4>Things to consider - </h4>
-          <ul>
-            <li>
-              Check how the ATMs' availability is in visiting the country. You
-              might end up in a situation where you don’t have any source to
-              withdraw money for that day.
-            </li>
-            <li>
-              Always withdraw money from your forex card in big chunks. Get
-              another copy for the card in case one gets lost.
-            </li>
-            <li>
-              Always check your balance in the email sent by the bank rather
-              than going to the ATM and checking. Even balance inquiry costs.{" "}
-            </li>
-            <li>
-              In case you need to reload more money in the forex, always carry
-              printed copies of Reload form. It is mandated from RBI when you
-              want to reload it again.
-            </li>
-          </ul>
-        </p>
+        <List
+          list={[
+            "Check how the ATMs' availability is in visiting the country. You might end up in a situation where you don’t have any source to withdraw money for that day.",
+            "Always withdraw money from your forex card in big chunks. Get another copy for the card in case one gets lost.",
+            "Always check your balance in the email sent by the bank rather than going to the ATM and checking. Even balance inquiry costs.",
+            "In case you need to reload more money in the forex, always carry printed copies of Reload form. It is mandated from RBI when you want to reload it again.",
+          ]}
+        />
 
         <h2 id="entry-travel-shopping" className="page-container__heading">
           Entry travel shopping
@@ -352,19 +323,13 @@ const BeforeYouGo = () => (
           lending and seeking alternative or using existing.∏
         </p>
 
-        <p>
-          <h4>Things to consider - </h4>
-          <ul>
-            <li>
-              Always try to borrow things that you will use one in a blue moon.
-            </li>
-            <li>See if you already have an alternative.</li>
-            <li>
-              See if you can work with the existing things or can you buy when
-              you travel next to a low-cost destination.
-            </li>
-          </ul>
-        </p>
+        <List
+          list={[
+            "Always try to borrow things that you will use one in a blue moon.",
+            "See if you already have an alternative.",
+            "See if you can work with the existing things or can you buy when you travel next to a low-cost destination.",
+          ]}
+        />
 
         <h2 id="apps-to-download" className="page-container__heading">
           Apps to download
