@@ -4,14 +4,15 @@ import React from "react"
 /** Component dependencies */
 import Layout from "./../../../components/layout"
 import SEO from "./../../../components/seo"
-import Header from "./../../../components/Header/Header"
+import Header from "./../../../components/Header"
+import List from "../../../components/List"
+import Heading from "../../../components/Heading"
 
 /** constants **/
 import PAGE_TYPE from "./../../../core/constants/pageType"
 
 /** styles **/
 import "./../../stories.css"
-import List from "../../../components/List/List"
 
 const BeforeYouGo = () => (
   <Layout type={PAGE_TYPE.STORY}>
@@ -363,7 +364,7 @@ const BeforeYouGo = () => (
         <ul>
           Few things I did for Japan -
           <li>
-            <h5>IC Card</h5>
+            <Heading level={5}>IC Card</Heading>
             <div>
               The rechargeable card that can be used in all public transport
               (bus, metro, trains ), some shopping outlets, vending machines,
@@ -372,7 +373,7 @@ const BeforeYouGo = () => (
             </div>
           </li>
           <li>
-            <h5>Calling and data card</h5>
+            <Heading level={5}>Calling and data card</Heading>
             <div>
               The rechargeable card that can be used in all public transport
               (bus, metro, trains ), some shopping outlets, vending machines,
@@ -381,7 +382,7 @@ const BeforeYouGo = () => (
             </div>
           </li>
           <li>
-            <h5>Tax</h5>
+            <Heading level={5}>Tax</Heading>
             <div>
               In my research, I came to know that you can rebate an 8% consumer
               tax when you purchase consumers and good worth of ¥5,400 from the
@@ -389,7 +390,7 @@ const BeforeYouGo = () => (
             </div>
           </li>
           <li>
-            <h5>Metro transport</h5>
+            <Heading level={5}>Metro transport</Heading>
             <div>
               The black taxis in Japan are super costly. The metro connectivity
               in Japan is extremely good and cheap. I heavily used metro
@@ -415,7 +416,7 @@ const BeforeYouGo = () => (
 
         <ul>
           <li>
-            <h5>Power Adapter and Converter</h5>
+            <Heading level={5}>Power Adapter and Converter</Heading>
             <div>
               Many countries have their electricity standards and chances are
               that you need to buy a power converter that can charge your all
@@ -424,7 +425,7 @@ const BeforeYouGo = () => (
             </div>
           </li>
           <li>
-            <h5>SIM card insertion tool</h5>
+            <Heading level={5}>SIM card insertion tool</Heading>
             <div>
               Nowadays you see SIM card has an external slot and requires a
               sharp and thin tool to take the SIM card out from the slot. It
@@ -433,7 +434,7 @@ const BeforeYouGo = () => (
             </div>
           </li>
           <li>
-            <h5>Shorts</h5>
+            <Heading level={5}>Shorts</Heading>
             <div>
               Do carry two pairs of shorts to wear at night or when you want to
               take morning walks. I usually avoid wearing shorts when I start my
@@ -441,14 +442,14 @@ const BeforeYouGo = () => (
             </div>
           </li>
           <li>
-            <h5>Flip flop</h5>
+            <Heading level={5}>Flip flop</Heading>
             <div>
               The flip flop is a must to pack. You can wear it when you want to
               take morning walks or stroll around the nearby area.
             </div>
           </li>
           <li>
-            <h5>Pen</h5>
+            <Heading level={5}>Pen</Heading>
             <div>
               It comes handy when you want to fill custom declaration form or
               want to leave a note to your host. Of Course, this website would
@@ -456,7 +457,7 @@ const BeforeYouGo = () => (
             </div>
           </li>
           <li>
-            <h5>Rubber band</h5>
+            <Heading level={5}>Rubber band</Heading>
             <div>
               Sometimes you need to tie things and you don’t have anything. It
               is always handy to carry a packet of a rubber band. Though I

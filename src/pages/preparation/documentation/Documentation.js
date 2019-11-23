@@ -13,6 +13,7 @@ import PAGE_TYPE from "../../../core/constants/pageType"
 /** styles **/
 import "../../stories.css"
 import List from "../../../components/List/List"
+import Heading from "../../../components/Heading"
 
 const Documentation = () => (
   <Layout type={PAGE_TYPE.STORY}>
@@ -44,7 +45,7 @@ const Documentation = () => (
 
         <ul>
           <li>
-            <h4>Trip doc</h4>
+            <Heading level={4}>Trip doc</Heading>
             Trip doc has your basic details such as your name, address,
             emergency contacts, blood group, etc. It is vital as I’m ‘O’
             negative blood human and in case of any emergency they can arrange
@@ -53,7 +54,7 @@ const Documentation = () => (
           </li>
 
           <li>
-            <h4>Weather</h4>
+            <Heading level={4}>Weather</Heading>
             It is always good to prepare a document or remember weather
             conditions a few days prior and your journey dates. I made a mistake
             and went to summer in peak Typhoon season. Lesson learned here.
@@ -62,14 +63,14 @@ const Documentation = () => (
             degrees and there is always the danger of typhoons.
           </li>
           <li>
-            <h4>Day by day itinerary</h4>
+            <Heading level={4}>Day by day itinerary</Heading>
             Prepare a detailed itinerary and help yourself with last moment
             confusion and decision making. I went to Japan without any
             accommodation and trip itinerary. It was always difficult to decide
             and go to places without this. It’s not bravery, it’s stupidity.
           </li>
           <li>
-            <h4>Things to do with priority assigned</h4>
+            <Heading level={4}>Things to do with priority assigned</Heading>
             List down all the activities/experiences you want to cover when you
             are there. I wanted to try Capsule hotels and Onsen. I assigned
             priority to them and I completed these two experiences. The priority

@@ -1,0 +1,8 @@
+h2.heading {
+  margin-bottom: 1rem;
+}
+
+h4.heading,
+h5.heading {
+  margin-bottom: 0.5rem;
+}
