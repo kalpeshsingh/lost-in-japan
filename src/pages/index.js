@@ -50,13 +50,13 @@ const IndexPage = () => (
         <span role="img" aria-label="Owl">
           🦉
         </span>
-        Visited weird cafes (maid and owl cafe){" "}
+        Visited weird cafes (maid and owl cafe)
       </li>
       <li>
         <span role="img" aria-label="Octopus">
           🐙
         </span>
-        Accidentally ate octopus{" "}
+        Accidentally ate octopus
       </li>
       <li>
         <span role="img" aria-label="Onsen">
@@ -64,21 +64,20 @@ const IndexPage = () => (
         </span>
         <abbr title="A tradition in Japan where people take bath with others">
           Onsen
-        </abbr>{" "}
+        </abbr>
         (I was the only foreigner in that public bath)
       </li>
       <li>
         {" "}
         <span role="img" aria-label="Shinkansen">
           🚅
-        </span>{" "}
+        </span>
         Shinkansen (bullet train)
       </li>
       <li>
-        {" "}
         <span role="img" aria-label="Sushi">
           🍣
-        </span>{" "}
+        </span>
         Sushi - first dinner in Japan
       </li>
       <li>
@@ -90,7 +89,7 @@ const IndexPage = () => (
       <li>
         <span role="img" aria-label="Japanese bar">
           🥃
-        </span>{" "}
+        </span>
         Authentic Japanese bar
       </li>
       <li>
@@ -101,13 +100,13 @@ const IndexPage = () => (
       </li>
       <li>
         <span role="img" aria-label="Books shelf">
-          📚{" "}
+          📚
         </span>
         Largest book shelf in Osaka
       </li>
       <li>
         <span role="img" aria-label="Couchsurfing">
-          🛋️{" "}
+          🛋️
         </span>
         Couchsurfing with Taiwanese family in Tokyo for 3 days
       </li>
@@ -131,7 +130,7 @@ const IndexPage = () => (
       />
     </div>
 
-    <h2 className="homepage__section-title">Read experiences</h2>
+    <h2 className="homepage__section-title">My experiences</h2>
     <div className="cards cards--experiences">
       <Card
         title={
