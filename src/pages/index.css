@@ -50,6 +50,10 @@
   margin-bottom: 3rem;
 }
 
+.travel_quick_facts figure {
+  margin-bottom: 0;
+}
+
 .travel_quick_facts img {
   width: 4rem;
 }
@@ -73,5 +77,11 @@
   .cards.cards--experiences {
     grid-template-columns: 1fr;
     height: auto;
+  }
+  .travel_quick_facts img {
+    width: 3rem;
+  }
+  .travel_quick_facts figcaption {
+    font-size: 0.65rem;
   }
 }
