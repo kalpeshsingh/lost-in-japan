@@ -27,6 +27,10 @@ import osakaCover from "../images/osaka_card_cover.jpg"
 import tokyoCover1 from "../images/tokyo_cover_one.jpg"
 import tokyoCover2 from "../images/tokyo_cover_two.jpg"
 
+import citiesVisited from "../images/japanese_gate.svg"
+import holidayDuration from "../images/passport.svg"
+import expenses from "../images/yen.svg"
+
 const IndexPage = () => (
   <Layout type={PAGE_TYPE.HOMEPAGE}>
     <SEO title="Home" />
@@ -44,6 +48,28 @@ const IndexPage = () => (
         </>
       }
     />
+
+    <div className="travel_quick_facts">
+      <div>
+        <figure>
+          <img src={citiesVisited} alt="Cities visited" />
+          <figcaption>Tokyo, Osaka and Kyoto</figcaption>
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img src={holidayDuration} alt="Holiday duration" />
+          <figcaption>11 days (29 July - 8 August)</figcaption>
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img src={expenses} alt="Total expense" />
+          <figcaption>62, 000 INR</figcaption>
+        </figure>
+      </div>
+    </div>
+
     <h2 className="homepage__section-title">Trip Highlights</h2>
     <ul className="homepage__section-highlights">
       <li>
