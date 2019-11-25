@@ -9,7 +9,6 @@ import Header from "./../../../components/Header/Header"
 /** constants **/
 import PAGE_TYPE from "./../../../core/constants/pageType"
 
-
 /** styles **/
 import "../../stories.css"
 
@@ -22,10 +21,10 @@ const TokyoLastDays = () => (
         <div className="page-container__left-list-title">Tokyo, 2 days</div>
         <ul className="page-container__left-list">
           <li>
-            <a href="#day4">Day 10</a>
+            <a href="#day10">Day 10</a>
           </li>
           <li>
-            <a href="#day5">Day 11</a>
+            <a href="#day11">Day 11</a>
           </li>
         </ul>
         <div className="page-container__ts">44 sec read time </div>
