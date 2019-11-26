@@ -4,7 +4,8 @@ import React from "react"
 /** Component dependencies */
 import Layout from "../../../components/layout"
 import SEO from "../../../components/seo"
-import Header from "../../../components/Header/Header"
+import Header from "../../../components/Header"
+import FooterBreadcrumb from "../../../components/FooterBreadcrumb"
 
 /** constants **/
 import PAGE_TYPE from "../../../core/constants/pageType"
@@ -52,6 +53,12 @@ const ExitTourism = () => (
             "Always tell shoppers that you will take it back to the home\n" +
               "              country so that they can do extra packing",
           ]}
+        />
+        <FooterBreadcrumb
+          left={{
+            link: "documentation",
+            label: "Documentation",
+          }}
         />
       </div>
     </div>

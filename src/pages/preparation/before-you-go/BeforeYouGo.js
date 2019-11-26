@@ -7,6 +7,7 @@ import SEO from "./../../../components/seo"
 import Header from "./../../../components/Header"
 import List from "../../../components/List"
 import Heading from "../../../components/Heading"
+import FooterBreadcrumb from "../../../components/FooterBreadcrumb"
 
 /** constants **/
 import PAGE_TYPE from "./../../../core/constants/pageType"
@@ -465,6 +466,16 @@ const BeforeYouGo = () => (
             </div>
           </li>
         </ul>
+        <FooterBreadcrumb
+          left={{
+            link: "/",
+            label: "Home",
+          }}
+          right={{
+            link: "documentation",
+            label: "Documentation",
+          }}
+        />
       </div>
     </div>
   </Layout>

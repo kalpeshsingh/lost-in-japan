@@ -1,0 +1,23 @@
+.footer-breadcrumb {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin: 2rem 0 3rem;
+}
+
+.footer-breadcrumb > a {
+  line-height: 1;
+}
+
+.footer-breadcrumb__left-subtitle {
+  font-size: 0.7rem;
+  line-height: 1;
+  margin-bottom: 0.3rem;
+}
+
+.footer-breadcrumb__right-subtitle {
+  font-size: 0.7rem;
+  text-align: right;
+  line-height: 1;
+  margin-bottom: 0.3rem;
+}

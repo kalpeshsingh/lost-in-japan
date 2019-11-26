@@ -5,7 +5,8 @@ import { Link } from "gatsby"
 /** Component dependencies */
 import Layout from "../../../components/layout"
 import SEO from "../../../components/seo"
-import Header from "../../../components/Header/Header"
+import Header from "../../../components/Header"
+import FooterBreadcrumb from "../../../components/FooterBreadcrumb"
 
 /** constants **/
 import PAGE_TYPE from "../../../core/constants/pageType"
@@ -153,6 +154,16 @@ const Documentation = () => (
             "Go to the consulate/embassy early in the morning, I went at 9:00 AM. They open the business hours at 08:30 AM.",
             "The rental agreement is not considered as your proof. Please take other documents.",
           ]}
+        />
+        <FooterBreadcrumb
+          left={{
+            link: "before-you-go",
+            label: "Before you go",
+          }}
+          right={{
+            link: "exit-tourism",
+            label: "Exit tourism",
+          }}
         />
       </div>
     </div>

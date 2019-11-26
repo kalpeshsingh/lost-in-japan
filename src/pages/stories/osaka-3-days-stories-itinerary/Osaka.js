@@ -4,7 +4,8 @@ import React from "react"
 /** Component dependencies */
 import Layout from "./../../../components/layout"
 import SEO from "./../../../components/seo"
-import Header from "./../../../components/Header/Header"
+import Header from "./../../../components/Header"
+import FooterBreadcrumb from "../../../components/FooterBreadcrumb"
 
 /** constants **/
 import PAGE_TYPE from "./../../../core/constants/pageType"
@@ -292,9 +293,17 @@ const Kyoto = () => (
           town and then to Dōtonbori. After that, I will have dinner and sleep.
           In the morning I will checkout. I will book a hostel for Kyoto.
         </p>
-        <p>
-          I want to get Japanese haircut and Onsen in those 3 days.
-        </p>
+        <p>I want to get Japanese haircut and Onsen in those 3 days.</p>
+        <FooterBreadcrumb
+          left={{
+            link: "tokyo-3-days-stories-itinerary",
+            label: "Tokyo experiences",
+          }}
+          right={{
+            link: "kyoto-3-days-stories-itinerary",
+            label: "Kyoto experiences",
+          }}
+        />
       </div>
     </div>
   </Layout>

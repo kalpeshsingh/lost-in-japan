@@ -4,7 +4,8 @@ import React from "react"
 /** Component dependencies */
 import Layout from "./../../../components/layout"
 import SEO from "./../../../components/seo"
-import Header from "./../../../components/Header/Header"
+import Header from "./../../../components/Header"
+import FooterBreadcrumb from "../../../components/FooterBreadcrumb"
 
 /** constants **/
 import PAGE_TYPE from "./../../../core/constants/pageType"
@@ -58,6 +59,12 @@ const TokyoLastDays = () => (
           It was a really good time and learning experience in Japan. 🇯🇵 This
           trip was a complete success for me.{" "}
         </p>
+        <FooterBreadcrumb
+          left={{
+            link: "kyoto-3-days-stories-itinerary",
+            label: "Kyoto experiences",
+          }}
+        />
       </div>
     </div>
   </Layout>

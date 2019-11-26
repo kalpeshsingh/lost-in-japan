@@ -4,7 +4,8 @@ import React from "react"
 /** Component dependencies */
 import Layout from "./../../../components/layout"
 import SEO from "./../../../components/seo"
-import Header from "./../../../components/Header/Header"
+import Header from "./../../../components/Header"
+import FooterBreadcrumb from "../../../components/FooterBreadcrumb"
 
 /** constants **/
 import PAGE_TYPE from "./../../../core/constants/pageType"
@@ -228,6 +229,16 @@ const Kyoto = () => (
           Bye bye tokyo! <br />
           You were great!
         </p>
+        <FooterBreadcrumb
+          left={{
+            link: "/",
+            label: "Home",
+          }}
+          right={{
+            link: "osaka-3-days-stories-itinerary",
+            label: "Osaka experiences",
+          }}
+        />
       </div>
     </div>
   </Layout>

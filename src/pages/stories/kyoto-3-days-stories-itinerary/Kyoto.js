@@ -4,7 +4,8 @@ import React from "react"
 /** Component dependencies */
 import Layout from "./../../../components/layout"
 import SEO from "./../../../components/seo"
-import Header from "./../../../components/Header/Header"
+import Header from "./../../../components/Header"
+import FooterBreadcrumb from "../../../components/FooterBreadcrumb"
 
 /** constants **/
 import PAGE_TYPE from "./../../../core/constants/pageType"
@@ -25,9 +26,15 @@ const Kyoto = () => (
       <aside className="page-container__left">
         <div className="page-container__left-list-title">Kyoto, 3 days</div>
         <ul className="page-container__left-list">
-          <li><a href="#day7">Day 7</a></li>
-          <li><a href="#day8">Day 8</a></li>
-          <li><a href="#day9">Day 9</a></li>
+          <li>
+            <a href="#day7">Day 7</a>
+          </li>
+          <li>
+            <a href="#day8">Day 8</a>
+          </li>
+          <li>
+            <a href="#day9">Day 9</a>
+          </li>
         </ul>
         <div className="page-container__ts">6 min 41 sec read time </div>
       </aside>
@@ -36,7 +43,9 @@ const Kyoto = () => (
           <img src={cover} />
           <figcaption>Kiyomizu-dera</figcaption>
         </figure>
-        <h2 id="day7" className="page-container__heading">Day 7 </h2>
+        <h2 id="day7" className="page-container__heading">
+          Day 7{" "}
+        </h2>
         <p className="drop-caps">
           {" "}
           I’m done with my breakfast here in my Osaka hostel and waiting for my
@@ -119,7 +128,9 @@ const Kyoto = () => (
           I went to the hostel which was only 3 minutes walk from the station. I
           set an alarm for 06:00 AM and went to sleep.
         </p>
-        <h2 id="day8" className="page-container__heading">Day 8</h2>
+        <h2 id="day8" className="page-container__heading">
+          Day 8
+        </h2>
         <figure className="page-container__photo">
           <img src={kalpeshWithSriLankan} />
           <figcaption>
@@ -172,8 +183,20 @@ const Kyoto = () => (
           long and it was interesting to learn about Japanses culture from an
           outsider who was living here for more than 1.5 years.
         </p>
-        <h2 id="day9" className="page-container__heading">Day 9 </h2>
+        <h2 id="day9" className="page-container__heading">
+          Day 9{" "}
+        </h2>
         <p>No entry</p>
+        <FooterBreadcrumb
+          left={{
+            link: "osaka-3-days-stories-itinerary",
+            label: "Osaka experiences",
+          }}
+          right={{
+            link: "tokyo-last-days",
+            label: "Last days experiences",
+          }}
+        />
       </div>
     </div>
   </Layout>
