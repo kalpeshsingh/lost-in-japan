@@ -296,11 +296,11 @@ const Kyoto = () => (
         <p>I want to get Japanese haircut and Onsen in those 3 days.</p>
         <FooterBreadcrumb
           left={{
-            link: "tokyo-3-days-stories-itinerary",
+            link: "/stories/tokyo-3-days-stories-itinerary",
             label: "Tokyo experiences",
           }}
           right={{
-            link: "kyoto-3-days-stories-itinerary",
+            link: "/stories/kyoto-3-days-stories-itinerary",
             label: "Kyoto experiences",
           }}
         />

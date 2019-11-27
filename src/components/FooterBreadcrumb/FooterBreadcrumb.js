@@ -1,5 +1,6 @@
 /** 3P dependency imports */
 import React, { Component } from "react"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
 /** styles **/
@@ -11,10 +12,10 @@ class FooterBreadcrumb extends Component {
 
     return (
       <div className="footer-breadcrumb">
-        <a href={left.link}>
+        <Link to={left.link}>
           <div className="footer-breadcrumb__left-subtitle">← Go back to</div>
           <div>{left.label} </div>
-        </a>
+        </Link>
         {right && (
           <a href={right.link}>
             <div className="footer-breadcrumb__right-subtitle">Read next →</div>

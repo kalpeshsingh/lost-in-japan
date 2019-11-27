@@ -189,11 +189,11 @@ const Kyoto = () => (
         <p>No entry</p>
         <FooterBreadcrumb
           left={{
-            link: "osaka-3-days-stories-itinerary",
+            link: "/stories/osaka-3-days-stories-itinerary",
             label: "Osaka experiences",
           }}
           right={{
-            link: "tokyo-last-days",
+            link: "/stories/tokyo-last-days",
             label: "Last days experiences",
           }}
         />

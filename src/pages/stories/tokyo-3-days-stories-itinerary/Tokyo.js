@@ -235,7 +235,7 @@ const Kyoto = () => (
             label: "Home",
           }}
           right={{
-            link: "osaka-3-days-stories-itinerary",
+            link: "/stories/osaka-3-days-stories-itinerary",
             label: "Osaka experiences",
           }}
         />

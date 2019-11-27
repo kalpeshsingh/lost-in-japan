@@ -13,7 +13,7 @@ import PAGE_TYPE from "./../../../core/constants/pageType"
 /** styles **/
 import "../../stories.css"
 
-const TokyoLastDays = () => (
+const LastDays = () => (
   <Layout type={PAGE_TYPE.STORY}>
     <SEO title="Tokyo | Stories" />
     <Header />
@@ -61,7 +61,7 @@ const TokyoLastDays = () => (
         </p>
         <FooterBreadcrumb
           left={{
-            link: "kyoto-3-days-stories-itinerary",
+            link: "/stories/kyoto-3-days-stories-itinerary",
             label: "Kyoto experiences",
           }}
         />
@@ -70,4 +70,4 @@ const TokyoLastDays = () => (
   </Layout>
 )
 
-export default TokyoLastDays
+export default LastDays
