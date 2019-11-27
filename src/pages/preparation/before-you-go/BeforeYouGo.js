@@ -472,7 +472,7 @@ const BeforeYouGo = () => (
             label: "Home",
           }}
           right={{
-            link: "documentation",
+            link: "/preparation/documentation",
             label: "Documentation",
           }}
         />

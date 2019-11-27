@@ -157,11 +157,11 @@ const Documentation = () => (
         />
         <FooterBreadcrumb
           left={{
-            link: "before-you-go",
+            link: "/preparation/before-you-go",
             label: "Before you go",
           }}
           right={{
-            link: "exit-tourism",
+            link: "/preparation/exit-tourism",
             label: "Exit tourism",
           }}
         />

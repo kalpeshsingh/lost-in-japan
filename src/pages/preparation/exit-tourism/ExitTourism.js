@@ -56,7 +56,7 @@ const ExitTourism = () => (
         />
         <FooterBreadcrumb
           left={{
-            link: "documentation",
+            link: "/preparation/documentation",
             label: "Documentation",
           }}
         />
