@@ -11,7 +11,10 @@ import FooterBreadcrumb from "../../../components/FooterBreadcrumb"
 import PAGE_TYPE from "./../../../core/constants/pageType"
 
 /** images **/
-import cover from "./../../../images/kyoto_torii_gate.jpg"
+import cover from "./../../../images/tokyo_shibuya_starbucks.jpg"
+import lunch from "./../../../images/first_lunch_in_japan.jpg"
+import liptonTea from "./../../../images/lipton_fruit_tea_at_omotesandō.jpg"
+import kaminarimonGate from "./../../../images/kaminarimon_gate.jpg"
 
 /** styles **/
 import "../../stories.css"
@@ -39,7 +42,7 @@ const Kyoto = () => (
       <div className="page-container__right">
         <figure className="page-container__photo">
           <img src={cover} />
-          <figcaption>Kiyomizu-dera</figcaption>
+          <figcaption>Shibuya Crossing</figcaption>
         </figure>
 
         <p>
@@ -98,6 +101,11 @@ const Kyoto = () => (
           airlines. I called home and had lunch in a nearby park.
         </p>
 
+        <figure className="page-container__photo">
+          <img src={lunch} />
+          <figcaption>ANI airline lunch</figcaption>
+        </figure>
+
         <p>
           It was now around 05:00 and I just finished my coffee from Doutor a
           Japanese chain for coffee. I somehow managed to reach the location by
@@ -152,6 +160,12 @@ const Kyoto = () => (
           From there I decided to visit Asakusa house on my way to the station I
           found a Lipton fruity and bought. I paid ¥600 for that tea. 😑
         </p>
+
+        <figure className="page-container__photo">
+          <img src={liptonTea} />
+          <figcaption>Lipton fruit tea near Omotesandō station</figcaption>
+        </figure>
+
         <p>
           After spending time at Asakusa house I headed towards Omotesandō
           Station. Harajuku area is at a walkable distance from the station and
@@ -214,6 +228,11 @@ const Kyoto = () => (
           young girls in Kimono and the street has shops on both sides. It was a
           good place to take photos and videos.
         </p>
+
+        <figure className="page-container__photo">
+          <img src={kaminarimonGate} />
+          <figcaption>Kaminarimon gate, Sensō-ji temple</figcaption>
+        </figure>
 
         <p>I was successful took one time lapse video. It is really good.</p>
         <hr />
