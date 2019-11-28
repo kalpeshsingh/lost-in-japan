@@ -12,6 +12,7 @@ import PAGE_TYPE from "./../../../core/constants/pageType"
 
 /** styles **/
 import "../../stories.css"
+import somewhereInTokyo from "../../../images/somewhere_in_tokyo.jpg"
 
 const LastDays = () => (
   <Layout type={PAGE_TYPE.STORY}>
@@ -42,6 +43,11 @@ const LastDays = () => (
 
         <p>No entry</p>
         <hr />
+
+        <figure className="page-container__photo">
+          <img src={somewhereInTokyo} />
+          <figcaption>Somewhere in Tokyo</figcaption>
+        </figure>
 
         <p>
           I’m bored in Japan or I'm bored with traveling. I learned new things
