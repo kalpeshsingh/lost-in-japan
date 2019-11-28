@@ -11,7 +11,11 @@ import FooterBreadcrumb from "../../../components/FooterBreadcrumb"
 import PAGE_TYPE from "./../../../core/constants/pageType"
 
 /** images **/
-import cover from "./../../../images/kyoto_torii_gate.jpg"
+import cover from "../../../images/osaka_castle.jpg"
+import meatballs from "../../../images/meatballs.jpg"
+import waffle from "../../../images/waffle.jpg"
+import maidCafe from "../../../images/maid_cafe.jpg"
+import bookShelf from "../../../images/tsite_osaka.jpg"
 
 /** styles **/
 import "../../stories.css"
@@ -39,7 +43,7 @@ const Kyoto = () => (
       <div className="page-container__right">
         <figure className="page-container__photo">
           <img src={cover} />
-          <figcaption>Kiyomizu-dera</figcaption>
+          <figcaption>Osaka Castle</figcaption>
         </figure>
         <h2 id="day4" className="page-container__heading">
           Day 4{" "}
@@ -93,6 +97,12 @@ const Kyoto = () => (
           the canal by 07:05 p.m. It’s around 07:54 p.m. I will spend time until
           8:30 and will leave for a hostel.
         </p>
+
+        <figure className="page-container__photo">
+          <img src={meatballs} />
+          <figcaption>Food before heading to canal</figcaption>
+        </figure>
+
         <p>
           My hostel is around 15 minutes away. Let me listen to music now. I was
           10% high with that beer and singing songs to the waitress and they
@@ -180,6 +190,11 @@ const Kyoto = () => (
           Den Den town after that. Surprisingly it was near my hostel.
         </p>
 
+        <figure className="page-container__photo">
+          <img src={waffle} />
+          <figcaption>Lived on Waffle at Doutor Coffee</figcaption>
+        </figure>
+
         <p>
           I strolled the area and went to a few shops. I saw one porn shop and
           decided that I should check this out. There were Japanese porn DVDs
@@ -203,6 +218,11 @@ const Kyoto = () => (
           photograph with a cute maid. I asked her to take a photo in Bollywood
           style and I have that instant photograph with me.{" "}
         </p>
+
+        <figure className="page-container__photo">
+          <img src={maidCafe} />
+          <figcaption>A bollywood style pose at maid cafe</figcaption>
+        </figure>
 
         <p>
           It took some time in the cafe. Now it was time to check out nearby
@@ -271,6 +291,12 @@ const Kyoto = () => (
           that lovely person took more than 35 photos but I’m happy as few of
           them are really good.{" "}
         </p>
+
+        <figure className="page-container__photo">
+          <img src={bookShelf} />
+          <figcaption>Largest bookshelf - Hirakata T-SITE</figcaption>
+        </figure>
+
         <p>
           I was hungry but couldn’t find any food options. So I decided to again
           board the train and eat near my hostel. I boarded the train and
