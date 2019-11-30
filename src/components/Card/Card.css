@@ -1,7 +1,18 @@
 @import "../../core/css/brand.css";
 
-.card__image {
+.card {
+  transition: transform 0.3s ease;
   border-radius: var(--border-radius-lg);
+}
+
+.card:focus {
+  transform: translateY(-5px);
+  box-shadow: 0 0 0px 2px var(--bg-layout), 0 0 0px 5px var(--color-crimson);
+  outline: 0;
+}
+
+.card__image {
+  border-radius: inherit;
   margin-bottom: 0.5rem;
 }
 

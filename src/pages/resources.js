@@ -41,7 +41,8 @@ const Resources = () => (
 
     <div className="resources__hint">
       If you looking for how to apply or document needed for visa then please
-      visit <Link to={"/before-you-visit-japan"}>Before you go</Link> page.
+      visit <Link to={"/preparation/before-you-go#visa"}>Before you go</Link>{" "}
+      page.
     </div>
 
     <section className="resources__download-section">
