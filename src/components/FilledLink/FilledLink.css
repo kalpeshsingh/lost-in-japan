@@ -6,3 +6,8 @@
   background-color: hsl(0, 0%, 0%);
   border-radius: var(--border-radius-sm);
 }
+
+.filledButton:focus {
+  outline: 0;
+  box-shadow: 0 0 0 1px var(--bg-layout), 0 0 0 4px hsl(0, 0%, 0%);
+}
