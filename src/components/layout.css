@@ -623,9 +623,14 @@ pre tt:after {
   grid-row: 3 / -1;
   grid-column: 1 / -1;
   text-align: center;
-  padding: 0.5rem;
+  padding: 1rem;
   font-size: 0.75rem;
   align-self: end;
+}
+
+.site-footer__credit {
+  display: block;
+  line-height: 1;
 }
 
 .drop-caps::first-letter {

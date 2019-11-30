@@ -29,6 +29,16 @@ const Layout = ({ children, type }) => {
       <footer className="site-footer">
         &copy; All the information and photos belongs to site author unless
         stated.
+          <small className="site-footer__credit">
+            Credits: Torii gate icon by{" "}
+            <a href="https://www.iconfinder.com/Ruslancorel" target={"_blank"}>
+              Rudez Studio
+            </a>{" "}
+            and Passport icon by{" "}
+            <a href="https://www.iconfinder.com/perdanakun" target={"_blank"}>
+              Conania
+            </a>
+          </small>
       </footer>
     </div>
   )
