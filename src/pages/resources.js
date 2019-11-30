@@ -144,7 +144,7 @@ const Resources = () => (
       >
         <figure>
           <img src={googleSheets} />
-          <figcaption>[SAMPLE] Things to do in Japan</figcaption>
+          <figcaption>[SAMPLE] Things needed</figcaption>
         </figure>
       </a>
       <div>
@@ -152,8 +152,8 @@ const Resources = () => (
         <div className="resources__download-desc">
           This document is refined over time and seems like close to my ultimate
           document to refer when I go for domestic trips. You must add things
-          that are needed as per the destination country. These are
-          basic things irrespective of country or whether.
+          that are needed as per the destination country. These are basic things
+          irrespective of country or whether.
         </div>
       </div>
     </section>
