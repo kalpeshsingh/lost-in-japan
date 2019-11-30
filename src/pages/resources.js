@@ -11,11 +11,12 @@ import Header from "../components/Header/Header"
 import PAGE_TYPE from "../core/constants/pageType"
 
 /** icons  **/
-import googleDocs from "../images/google_doc.svg"
+import googleDocs from "../images/google_doc.png"
+import googleSheets from "../images/google_sheets.png"
 
 /** styles */
 import "./resources.css"
-import AlertBox, { ALERT_TYPES } from "../components/AlertBox/AlertBox"
+import AlertBox, { ALERT_TYPES } from "../components/AlertBox"
 
 const Resources = () => (
   <Layout type={PAGE_TYPE.ABOUT}>
@@ -87,6 +88,72 @@ const Resources = () => (
           <br />
           Please download the sample document and fill the necessary
           information.
+        </div>
+      </div>
+    </section>
+    <section className="resources__download-section">
+      <a
+        className="resources__icon"
+        href="https://docs.google.com/document/d/1_r0x4qVW2SKzYSE3TiujXAGEwd4U1UU99sB3DN2Wa64/edit?usp=sharing"
+        target="_blank"
+      >
+        <figure>
+          <img src={googleDocs} />
+          <figcaption>[SAMPLE] Japan Trip</figcaption>
+        </figure>
+      </a>
+      <div>
+        <h4 className="resources__download-title">Japan Trip</h4>
+        <div className="resources__download-desc">
+          I call it as Trip document which should be with you in your backpack
+          always. In case you need help then people can or authority can make
+          calls and provide you necessary help in foreign soil.
+          <br />
+          Please download the sample document and fill correct and maximum
+          details.
+        </div>
+      </div>
+    </section>
+    <section className="resources__download-section">
+      <a
+        className="resources__icon"
+        href="https://docs.google.com/spreadsheets/d/1uPJ6KXjpHkMSQtjjd__mAMqOuCqIKhXq8nsHIHU6rD0/edit?usp=sharing"
+        target="_blank"
+      >
+        <figure>
+          <img src={googleSheets} />
+          <figcaption>[SAMPLE] Things to do in Japan</figcaption>
+        </figure>
+      </a>
+      <div>
+        <h4 className="resources__download-title">Things to do in Japan</h4>
+        <div className="resources__download-desc">
+          I created this document to give priority to things I want to do. This
+          helped me to experience what are absolutely required.
+          <br />
+          Please download the sample document and enter things you think will
+          maximize your experience in Japan and assign priority.
+        </div>
+      </div>
+    </section>
+    <section className="resources__download-section">
+      <a
+        className="resources__icon"
+        href="https://docs.google.com/spreadsheets/d/1o-aSVlBy87QuuePeO84kwoJTmtCZf_0v_LXwDtLrO4w/edit?usp=sharing"
+        target="_blank"
+      >
+        <figure>
+          <img src={googleSheets} />
+          <figcaption>[SAMPLE] Things to do in Japan</figcaption>
+        </figure>
+      </a>
+      <div>
+        <h4 className="resources__download-title">Things needed</h4>
+        <div className="resources__download-desc">
+          This document is refined over time and seems like close to my ultimate
+          document to refer when I go for domestic trips. You must add things
+          that are needed as per the destination country. These are
+          basic things irrespective of country or whether.
         </div>
       </div>
     </section>

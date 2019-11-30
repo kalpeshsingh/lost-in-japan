@@ -48,6 +48,10 @@
   text-overflow: ellipsis;
 }
 
+.resources__icon img {
+  width: 3rem;
+}
+
 .resources__hint {
   font-size: 0.85rem;
   margin-bottom: 4rem;
