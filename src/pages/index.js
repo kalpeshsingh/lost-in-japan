@@ -29,7 +29,7 @@ import tokyoCover2 from "../images/tokyo_cover_two.jpg"
 
 import citiesVisited from "../images/japanese_gate.svg"
 import holidayDuration from "../images/passport.svg"
-import expenses from "../images/yen.svg"
+import expenses from "../images/inr.svg"
 
 const IndexPage = () => (
   <Layout type={PAGE_TYPE.HOMEPAGE}>
