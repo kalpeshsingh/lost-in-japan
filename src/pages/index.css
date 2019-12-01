@@ -39,6 +39,10 @@
   background-color: hsl(185, 22%, 91%);
 }
 
+.homepage__section-highlights span[role="img"] {
+  margin-right: 5px;
+}
+
 /* ==========================================================================
    Travel Quick Facts section
    ========================================================================== */

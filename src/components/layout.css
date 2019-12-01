@@ -629,6 +629,7 @@ pre tt:after {
 }
 
 .site-footer__credit {
+  font-size: 0.8rem;
   display: block;
   line-height: 1;
 }
