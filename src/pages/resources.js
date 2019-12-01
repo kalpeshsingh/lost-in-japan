@@ -57,7 +57,14 @@ const Resources = () => (
         </figure>
       </a>
       <div>
-        <h4 className="resources__download-title">Itinerary Document</h4>
+        <h4 className="resources__download-title">
+          <a
+            href="https://docs.google.com/document/d/1oQZDi0CW4yj0IFeK5fpA78tEzMAfRDShfWZl9j-CSmY/edit?usp=sharing"
+            target="_blank"
+          >
+            Itinerary Document
+          </a>
+        </h4>
         <div className="resources__download-desc">
           This document helps the visa officer to know that you are genuinely
           interested to explore these places in Japan. You did your research and
@@ -80,7 +87,14 @@ const Resources = () => (
         </figure>
       </a>
       <div>
-        <h4 className="resources__download-title">Cover Letter</h4>
+        <h4 className="resources__download-title">
+          <a
+            href="https://docs.google.com/document/d/180v7bTRHYKchHHBvb1RSqY1TrAXgmY0WQAuuHEKqRlQ/edit?usp=sharing"
+            target="_blank"
+          >
+            Cover Letter
+          </a>
+        </h4>
         <div className="resources__download-desc">
           This document act as a request to visa authority to provide you a visa
           for the stated purpose and give you a chance to provide additional
@@ -104,7 +118,14 @@ const Resources = () => (
         </figure>
       </a>
       <div>
-        <h4 className="resources__download-title">Japan Trip</h4>
+        <h4 className="resources__download-title">
+          <a
+            href="https://docs.google.com/document/d/1_r0x4qVW2SKzYSE3TiujXAGEwd4U1UU99sB3DN2Wa64/edit?usp=sharing"
+            target="_blank"
+          >
+            Japan Trip
+          </a>
+        </h4>
         <div className="resources__download-desc">
           I call it as Trip document which should be with you in your backpack
           always. In case you need help then people can or authority can make
@@ -127,7 +148,14 @@ const Resources = () => (
         </figure>
       </a>
       <div>
-        <h4 className="resources__download-title">Things to do in Japan</h4>
+        <h4 className="resources__download-title">
+          <a
+            href="https://docs.google.com/spreadsheets/d/1uPJ6KXjpHkMSQtjjd__mAMqOuCqIKhXq8nsHIHU6rD0/edit?usp=sharing"
+            target="_blank"
+          >
+            Things to do in Japan
+          </a>
+        </h4>
         <div className="resources__download-desc">
           I created this document to give priority to things I want to do. This
           helped me to experience what are absolutely required.
@@ -149,7 +177,14 @@ const Resources = () => (
         </figure>
       </a>
       <div>
-        <h4 className="resources__download-title">Things needed</h4>
+        <h4 className="resources__download-title">
+          <a
+            href="https://docs.google.com/spreadsheets/d/1o-aSVlBy87QuuePeO84kwoJTmtCZf_0v_LXwDtLrO4w/edit?usp=sharing"
+            target="_blank"
+          >
+            Things needed
+          </a>
+        </h4>
         <div className="resources__download-desc">
           This document is refined over time and seems like close to my ultimate
           document to refer when I go for domestic trips. You must add things
