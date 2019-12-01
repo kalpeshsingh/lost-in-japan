@@ -53,7 +53,7 @@ const Resources = () => (
       >
         <figure>
           <img src={googleDocs} />
-          <figcaption>[SAMPLE] Itinerary in Japan</figcaption>
+          <figcaption>Itinerary in Japan</figcaption>
         </figure>
       </a>
       <div>
@@ -76,7 +76,7 @@ const Resources = () => (
       >
         <figure>
           <img src={googleDocs} />
-          <figcaption>[SAMPLE] Cover Letter</figcaption>
+          <figcaption>Cover Letter</figcaption>
         </figure>
       </a>
       <div>
@@ -100,7 +100,7 @@ const Resources = () => (
       >
         <figure>
           <img src={googleDocs} />
-          <figcaption>[SAMPLE] Japan Trip</figcaption>
+          <figcaption>Japan Trip</figcaption>
         </figure>
       </a>
       <div>
@@ -123,7 +123,7 @@ const Resources = () => (
       >
         <figure>
           <img src={googleSheets} />
-          <figcaption>[SAMPLE] Things to do in Japan</figcaption>
+          <figcaption>Things to do in Japan</figcaption>
         </figure>
       </a>
       <div>
@@ -145,7 +145,7 @@ const Resources = () => (
       >
         <figure>
           <img src={googleSheets} />
-          <figcaption>[SAMPLE] Things needed</figcaption>
+          <figcaption>Things needed</figcaption>
         </figure>
       </a>
       <div>
