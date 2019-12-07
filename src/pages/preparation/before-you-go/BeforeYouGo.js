@@ -143,13 +143,19 @@ const BeforeYouGo = () => (
         </h2>
 
         <p>
-          I wanted to experiment with everything with this trip. As a frugal
-          traveler visiting an expensive country, I thought I should give a shot
-          for Couchsurfing. I started reviewing and updating my CS profile.{" "}
+          I wanted do few experiments with this trip. As a frugal traveler
+          visiting an expensive country, I thought I should give a shot for{" "}
+          <a
+            href="https://www.couchsurfing.com/people/kalpesh-singh"
+            target="_blank"
+          >
+            Couchsurfing
+          </a>
+          . I started reviewing and updating my CS profile.
         </p>
 
         <p>
-          I kept my cap to 3 people in the city as I have to write 1-2
+          I kept my cap to 3 people in a city as I have to write 1-2
           personalized paragraphs. You should have a basic but modifiable
           template where you can insert personalized content. In all the 3
           cities, I got the host.
@@ -160,15 +166,14 @@ const BeforeYouGo = () => (
           a Taiwanese family. One host canceled on me because he thought I’m
           asking too many questions. As a first time travel, I didn’t have any
           idea how this works and it was better to ask questions than facing an
-          unwanted situation.{" "}
+          unwanted situation.
         </p>
 
         <p>
           The other host and my timing didn’t match and I missed the opportunity
-          to live with him. I have added their address and contacts in my
-          document. I was in touch with them regularly so that there is no
-          information gap between us. The messages were not always about my
-          travel plans but a regular small talk doesn’t harm.
+          to live with him. I was in touch with them regularly so that there is
+          no information gap between us. The messages were not always about my
+          travel plans but a regular small talk that doesn’t harm anyone.
         </p>
 
         <List
@@ -189,23 +194,23 @@ const BeforeYouGo = () => (
           I planned to buy a diary from Japan and write about my experience in
           it. I didn’t know that Japanese love to organize stuff and they have
           big stationery shops. I went to one and couldn’t find any fancy diary
-          where there is a colorful cover page. Though, I found one plain and
-          simple.
+          where there is a colorful cover page. I settled with one plain and
+          simple travel diary.
         </p>
 
         <p>
-          There was no strict rule to write every day. I used to write it in
-          chunks, especially when I’m sipping in Doutor coffee. I knew that I
-          can’t write before I go to bed and it is always better to write when
-          the memories are fresh.{" "}
+          There was no strict rule to write every day. I used to write in chunks
+          especially when I’m sipping coffee in Doutor cafe. I knew I can’t
+          write before I go and hug my bed. It is always better to write when
+          the memories are fresh.
         </p>
 
         <p>
           I have written about my daily plans, my observations and thoughts of
           culture. I got bored with writing on the 9th day and those two days
           are missing from my diary. There are two benefits of writing about
-          your trip in a diary or documenting in a digital device. Though I will
-          suggest writing in a physical diary.{" "}
+          your trip in a diary or documenting on a digital device. Though I will
+          suggest writing in a physical diary.
         </p>
 
         <ul>
@@ -215,7 +220,7 @@ const BeforeYouGo = () => (
           </li>
           <li>
             When you write you go in solidarity zone and observe and compare the
-            things and culture.
+            things and culture. You discover more about your identity.
           </li>
         </ul>
 
