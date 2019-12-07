@@ -1,5 +1,6 @@
 /** 3P dependency imports */
 import React from "react"
+import { Link } from "gatsby"
 
 /** Component dependencies */
 import Layout from "./../../../components/layout"
@@ -55,24 +56,24 @@ const BeforeYouGo = () => (
       </aside>
       <div className="page-container__right">
         <p>
-          I started planning for my trip to Japan trip in June (a month back).
-          The original plan was to go in the Sakura season that is the Cherry
-          Blossom season in Japan. There were a few reasons that I had to shift
-          the plan to August a season known for heat and typhoons.
+          I started planning in June, a month back from the trip. The original
+          plan was to go in the Sakura season (Cherry blossom) in Japan which is
+          usually observe in April in Tokyo. There were a few reasons that I had
+          to shift the plan to August - a season known for heat and typhoons.
         </p>
 
         <p>
           I started gathering basic information such as weather, what are the
-          things I’m interested in, visa documentation, things I will need in
-          Japan, etc. I created a folder in Google Drive and started adding
-          information there. Google Drive can be handy as all the documents can
-          be saved offline and useful.{" "}
+          things I’m interested in, visa documents, things I will need in Japan,
+          etc. I created a folder in Google Drive and started adding information
+          there. Google Drive can be handy as all the documents can be saved
+          offline and useful.
         </p>
 
         <p>
-          I see I couldn’t download the offline map of Japan due to some
-          language issues in Google Maps. Though I had downloaded the different
-          app for the same.
+          I couldn’t download the offline map of Japan due to some language
+          support in Google Maps. Though I had downloaded the different app for
+          offline navigation.
         </p>
 
         <h2 id="visa" className="page-container__heading">
@@ -80,61 +81,62 @@ const BeforeYouGo = () => (
         </h2>
 
         <p>
-          I thought I would do my visa but then I realized that as this is the
-          first time I should go with a travel agency. I chose Thomas Cook for
-          my visa as my colleague got the Japan visa from them. I gathered all
-          the document and submitted to Thomas Cook. Thomas Cook asks more
-          documents than what Consulate or Japanse Embassy requires.{" "}
+          I thought I would self apply for the visa but realized that as this is
+          the first time and I shouldn't take any chance. I chose Thomas Cook
+          for my visa service provider as my colleague recommended and had a
+          good experience. I gathered all the document and submitted to Thomas
+          Cook. Thomas Cook asks more documents than what a consulate or
+          Japanese embassy requires.
         </p>
 
         <p>
-          After 7 days when I went to Thomas Cook's office, they said your visa
-          got rejected and they didn’t provide a reason. When I talked earlier
-          to Thomas Cook they said there is a rare chance that a tourist visa
-          got rejected. My case became rare.
+          After a week when I visited Thomas Cook's office with all energy and
+          happiness, they said your visa got rejected and they didn’t provide a
+          reason. When I talked earlier to Thomas Cook they said there is a rare
+          chance that a tourist visa get rejected. My case became rare.
         </p>
 
         <p>
           They said they can’t do anything and you have to contact the consulate
           directly. I contacted the consulate and they didn’t provide me the
-          reason but said that I can walk in and talk there.
+          reason but said I can walk in and talk there.
         </p>
 
         <p>
-          The next day I went there and I put my case to the consulate member
-          (Indian) they said you can reply the next day.
+          The next day I went there and I put my case to the consulate staff
+          (Indian staff working in Consulate General of Japan, Bengaluru) they
+          said you can re-apply next day.
         </p>
 
         <p>
-          I went with all the documents the next day (asked they do they need an
-          original copy of my leaving letter from company and stamps on Bank
+          I went with all the documents next day (asked them prior if they need
+          an original copy of my leaving letter from company and stamps on bank
           statements as these both things are time-consuming, they said a print
-          is sufficient). I went the next day and submitted my document. They
-          gave me a date (7 days from the day of submission). When I went there
-          after 7 days and she said your visa is approved and I was extremely
-          happy. I again resumed my planning as I halted the planning until my
-          visa got approved.
+          is sufficient). I went the next day and submitted my documents. They
+          gave me a date (7 days from the day of submission).
+        </p>
+
+        <p>
+          The day arrived when I need to go and collect my visa. I was hopeless
+          and frustrated. I enquired about my visa and she said "Yes" (I meant
+          approved). I was extremely happy and excited to resume my planning
+          which I decided to halt until I get news on my visa status.
         </p>
 
         <List
           list={[
-            "You should have 6 months bank statement till the day before you submit your visa application. Your bank statement should fit into the A4 page. I took the wrong print and the closing balance column was cut.",
-            "They won’t consider your rent agreement as address proof. Luckily, I have a Bengaluru driving license.",
+            "You should have a 6 months bank statement till the day before you submit your visa application. Your bank statement should fit into the A4 page. I took the wrong print and the closing balance column was cut.",
+            "They won’t consider your rent agreement as address proof. Luckily, I had a Bengaluru driving license that time.",
           ]}
         />
 
         <p>
           The Japanese consulate in Bangalore is extremely helpful. Directly
-          walk-in with the following documents and get a visa in the next 7 days
-          from the same office.{" "}
-        </p>
-
-        <p>
-          Link for the documents required:{" "}
-          <a href={" https://www.thomascook.in/visa/japan-visa-online"}>
-            {" "}
-            Thomas Cook
-          </a>
+          walk-in with the{" "}
+          <Link to={"/preparation/documentation#visa-documents"}>
+            documents
+          </Link>{" "}
+          and get a visa in the next 7 days from the same office.
         </p>
         <h2 id="couchsurfing" className="page-container__heading">
           Couchsurfing
