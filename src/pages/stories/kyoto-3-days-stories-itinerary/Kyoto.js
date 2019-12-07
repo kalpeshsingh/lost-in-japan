@@ -47,20 +47,25 @@ const Kyoto = () => (
           Day 7{" "}
         </h2>
         <p className="drop-caps">
-          {" "}
-          I’m done with my breakfast here in my Osaka hostel and waiting for my
-          towel to dry. It was time to leave Osaka and explore Nara and Kyoto
-          area. I found one cheap hostel with breakfast.
+          I’m done with my breakfast in my Osaka hostel and waiting for my towel
+          to dry. It's time to leave Osaka and explore Nara and Kyoto
+          prefectures. I found one cheap hostel with breakfast in Kyoto called
+          Guest House Oumi.
         </p>
         <p>
           My check in time is 05:00 in the evening but if I want to keep my
           luggage then I have to reach there by 01:00 p.m. I also have to book
-          bus for Tokyo.{" "}
+          bus for Tokyo.
+        </p>
+        <p>
+          Isn't it weird that check in times are usually after 01:00 PM in
+          Japan. I bet this is because this cleanliness obsessed country needs
+          more time in making your bed perfect.
         </p>
         <hr />
         <p>
           I think I will head to Kyoto, keep my luggage and go explore places
-          but before that I have to make a plan.{" "}
+          but before that I have to make a plan.
         </p>
         <p>
           I booked the bus in hostel itself and then left for Kyoto. It took me
@@ -75,7 +80,7 @@ const Kyoto = () => (
           a cold coffee. The Nijō castle will close at 05 p.m. so I will visit
           castle first then Shrine (Money shrine) then Onsen near my guesthouse.
           Seems like I have to prepare myself for walking because it's Kyoto and
-          its sort of countryside.
+          I don't see much public transport.
         </p>
         <p>
           I was so tired that I couldn't cover the Imperial Palace. Anyway
@@ -84,9 +89,9 @@ const Kyoto = () => (
         <p>
           I wanted to do Onsen and I walk 3 kilometres and reached there. I paid
           for Onsen and bought a ¥100 towel from them. As soon as I went there I
-          saw people were naked they were either going for Onsen or done with
+          saw people were naked. They were either going for Onsen or done with
           it. I didn't feel shy and removed my clothes. I went first to clean my
-          body and then went for Onsen.
+          body (same rule when you go for swimming) and then went for Onsen.
         </p>
         <p>
           I saw that hot bath has a bigger space. So I waited for a few minutes.
@@ -95,14 +100,14 @@ const Kyoto = () => (
         </p>
         <p>
           I didn’t go to open bath area as I was feeling shy. I was the only
-          foregin tourists there and it was a bit odd for me. I spent time there
+          foregin tourist there and it was a bit odd for me. I spent time there
           and then it was time to go to the hostel after around 8-10 Kms. of
-          walk in 36 °C.{" "}
+          walk in 36 °C.
         </p>
         <p>
           I went to the hostel where I met one Japanese old person. He was
           trying to communicate in English and told me that he was in India 20
-          years ago. He was a nice guy.
+          years ago. He was a nice and funny guy.
         </p>
         <p>
           He helped me with transport to Arashiyama. He tried to help me in
@@ -117,8 +122,9 @@ const Kyoto = () => (
           He called the hostel staff and I got my bed. Tommy (owner of hostel )
           explained to me about hostel facilities. He spoke in the style like
           magician speaks with audience. I wanted to buy 2 days pass of Kyoto
-          city. I went to the station (Nijō station). I found KFC there and had
-          my dinner. KFC Chicken, french fries and cola.
+          city so I went to the station (Nijō station). I decided to get pass
+          tomorrow and settled in KFC and had my dinner. KFC Chicken, french
+          fries and cola.
         </p>
         <p>
           I couldn’t eat the entire chicken but was feeling good after getting
@@ -145,10 +151,10 @@ const Kyoto = () => (
         <p>
           It is a 10 minutes train rider from Nijō station. I went there and
           explored one shrine. I took some amazing photos. When I was leaving
-          the forest I met a Sri Lankan guy. We greeted each other and I left. I
-          had two more places to cover which was Kimono forest and one bridge. I
-          met the Sri Lankan guy there and planned to explore the rest of the
-          day together.
+          the forest I met Dashintha. We greeted each other and I left. I had
+          two more places to cover which was Kimono forest and one bridge. I met
+          Dashintha again and we planned to explore the rest of the day
+          together.
         </p>
 
         <p>
@@ -160,7 +166,7 @@ const Kyoto = () => (
 
         <p>
           It was an amazing experience. We took lots of good photos and had fun
-          with owl. After that we decided to go to Kyoto station and had lunch
+          with owls. After that we decided to go to Kyoto station and had lunch
           there. After struggling to find Yoshinoya we had to settle for
           McChicken burger. After eating we went to Kiyomizu-dera and spent a
           few hours there.
@@ -171,20 +177,19 @@ const Kyoto = () => (
           where many torii gates are there. At this point, I was exhausted.
           Though with rest at multiple points we were able to hike to the top
           and the view was worth. We sat there for half an hour and then decided
-          to leave for our way. We bought beers and I was drinking while walking
-          and on the train.{" "}
+          to leave for our destinations. We bought beers and I was drinking
+          while walking and in the train.
         </p>
 
         <p>
-          {" "}
-          He got down at the next station from Fushimi and i got down at Nijō
+          He alighted at the next station from Fushimi and i got down at Nijō
           station. I went to KFC and ordered medium size french fries and a
           vegetable stuff. It was my dinner and then I went to sleep. The was
-          long and it was interesting to learn about Japanses culture from an
+          long and it was interesting to learn about Japaneses culture from an
           outsider who was living here for more than 1.5 years.
         </p>
         <h2 id="day9" className="page-container__heading">
-          Day 9{" "}
+          Day 9
         </h2>
         <p>No entry</p>
         <FooterBreadcrumb
