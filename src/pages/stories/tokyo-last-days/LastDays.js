@@ -5,6 +5,7 @@ import React from "react"
 import Layout from "./../../../components/layout"
 import SEO from "./../../../components/seo"
 import Header from "./../../../components/Header"
+import Heading from "../../../components/Heading"
 import FooterBreadcrumb from "../../../components/FooterBreadcrumb"
 
 /** constants **/
@@ -13,7 +14,6 @@ import PAGE_TYPE from "./../../../core/constants/pageType"
 /** styles **/
 import "../../stories.css"
 import somewhereInTokyo from "../../../images/somewhere_in_tokyo.jpg"
-import Heading from "../../../components/Heading/Heading"
 
 const LastDays = () => (
   <Layout type={PAGE_TYPE.STORY}>
