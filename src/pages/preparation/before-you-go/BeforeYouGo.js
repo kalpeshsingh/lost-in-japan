@@ -231,20 +231,20 @@ const BeforeYouGo = () => (
         <p>
           I booked all my hostels through Booking.com and all of them have a
           cancellation policy without paying a single rupee. Though you have to
-          put a credit card on file. I set a safe reminder date in the mobile
-          Calendar for all the hostel cancellation.{" "}
+          put a credit card on file. I set a safe reminder dates in the phone
+          calendar for all the hostel cancellation.
         </p>
 
         <p>
           I canceled one booking in India and decided to cancel the rest in
           Japan. When Derma and I left from Shinjuku to her home, I realized
           that it is too much distance and need to deal with transfer too
-          (changing trains called transfer in Japan). Now, It was fought between
-          living in an outer area in a Japanese flat or hostel in the center of
-          Tokyo. I thought and decided that I will live there, initially I
-          thought I will leave her flat the next day. I see in cities like
-          Tokyo, you can easily get a hostel that’s why I was confident to move
-          to the city without thinking about accommodation.
+          (changing trains called transfer in Japan). Now, It was dilemma
+          between living in an outer area in a Japanese flat or hostel in the
+          center of Tokyo. I thought and decided that I will live there,
+          initially I thought I will leave her flat the next day. I knew that in
+          cities like Tokyo, you can easily get a hostel that’s why I was
+          confident to move to the city without thinking about accommodation.
         </p>
 
         <p>
@@ -260,31 +260,32 @@ const BeforeYouGo = () => (
         </h2>
 
         <p>
-          I took around 66,000 INR with me as a Forex card. It was a breeze to
-          withdraw money from 7-Eleven ATMs in Japan. One thing that is weird
-          for me in Japan is about ATMs. They are not open late at night or on
-          weekends or public holidays. On the other hand, in India, you will see
-          most of the AMTs 24/7 at your service. Luckily, I checked the calendar
-          and there was no such holiday.
+          I took around 66,000 INR with me. It was 20,000 INR cash and rest in a
+          Forex card. It was a breeze to withdraw money from 7-Eleven ATMs in
+          Japan. One thing that is weird for me in Japan is about ATMs. They are
+          not open late at night or on weekends or public holidays. On the other
+          hand, in India, you will see most of the AMTs are 24/7 at your
+          service. Luckily, I checked the calendar and there was no such
+          holiday.
         </p>
 
         <p>
           Whenever you withdraw money from Forex card they charge you a fee so
           it is advisable to withdraw money in big chunks so that you don’t end
-          up paying more in fees.{" "}
+          up paying more in fees.
         </p>
 
         <p>
           It is a big no to use your credit card as you will end up paying
-          conversion fee every time and it is not worth.
+          conversion fee every time and it might not be worth.
         </p>
 
         <List
           list={[
-            "Check how the ATMs' availability is in visiting the country. You might end up in a situation where you don’t have any source to withdraw money for that day.",
+            "Check how is the ATMs' availability in visiting the country. You might end up in a situation where you don’t have any source to withdraw money for that day.",
             "Always withdraw money from your forex card in big chunks. Get another copy for the card in case one gets lost.",
             "Always check your balance in the email sent by the bank rather than going to the ATM and checking. Even balance inquiry costs.",
-            "In case you need to reload more money in the forex, always carry printed copies of Reload form. It is mandated from RBI when you want to reload it again.",
+            "In case you need to reload more money in the forex, always carry printed copies of Reload form (available online from issuing bank). It is mandated from RBI when you want to reload it again.",
           ]}
         />
 
@@ -295,11 +296,11 @@ const BeforeYouGo = () => (
         <p>
           Entry travel shopping includes what are the necessary things you have
           to buy before you leave your home country. I don't know whether this
-          is an actual term or I coined it.{" "}
+          is an actual term or I coined it.
         </p>
         <p>
-          As Japan is an expensive country and I’m frugal travel, I need to
-          balance my expenses smartly. In the beginning, I thought I will buy a
+          As Japan is an expensive country and I’m frugal travel, I needed to
+          balance my expenses smartly. In the beginning I thought I will buy a
           water bottle but then realize that I already have one and it’s in good
           condition to carry. I thought I will buy a rucksack but then dropped
           the plan as I want to buy a solid rucksack and it will cost me a hell
@@ -308,28 +309,28 @@ const BeforeYouGo = () => (
         </p>
 
         <p>
-          Though I bought a dry towel from Decaltholom which is one of the best
+          Though I bought a dry towel from Decathlon which is one of the best
           investments you will do for travel. You can buy vacuum bags to keep
-          your toiletries and rubber band to keep things tidy.{" "}
+          your toiletries and rubber band to keep things tidy.
         </p>
 
         <p>
           I didn’t have a power bank and it would become a necessity there so I
           bought Mi Powerbank. Amazon has a detailed guide on which power bank
-          to buy and I ended up purchasing 10000 mAH.{" "}
+          to buy and I ended up purchasing 10000 mAH.
         </p>
 
         <p>
-          I knew that people will have a few things that they bought and there
-          is no harm to borrow from them. I asked my colleague to lend me a
-          converter which can be used in Japan to charge my Indian devices. I
-          purchased one passport holder which is a travel document organizer and
-          it was the best thing to buy for the long run.{" "}
+          I knew that people will have a few things that they bought for their
+          internation trip and there is no harm to borrow from them. I asked my
+          colleague to lend me a converter which can be used in Japan to charge
+          my Indian devices. I purchased one passport holder which is a travel
+          document organizer and it was the best thing to buy for the long run.
         </p>
 
         <p>
-          It seems like a saved good amount here either by dropping purchase,
-          lending and seeking alternative or using existing.∏
+          It seems like I saved good amount by either dropping purchase, lending
+          and seeking alternative or using existing stuff.
         </p>
 
         <List
@@ -351,9 +352,9 @@ const BeforeYouGo = () => (
         </p>
 
         <p>
-          The other two were for downloading offline Japanese app and the last
+          From rest of the two, one was for offline Japanese map and the last
           one was iTranslator. Google Maps for Japan was unavailable that’s why
-          I need to download a separate app. I subscribed iTranslator app but
+          I needed to download a separate app. I subscribed iTranslator app but
           then realized I can live without it too. The subscription was for
           instant communication in dual language but Google Lens and Google
           Translator was enough to survive in Japan.
@@ -365,8 +366,8 @@ const BeforeYouGo = () => (
 
         <p>
           It is necessary to do some basic research on what’s the economical
-          transport mode, how is the transport facilities, what’s the calling
-          and data rate etc. to make your trip more comfortable and economical.
+          transport mode, how is the transport facilities, what’s the phone call
+          and data rates etc. to make your trip more comfortable and economical.
         </p>
 
         <ul>
@@ -376,25 +377,31 @@ const BeforeYouGo = () => (
             <div>
               The rechargeable card that can be used in all public transport
               (bus, metro, trains ), some shopping outlets, vending machines,
-              etc.. This made my journey super smooth in Japan. You can recharge
+              etc. This made my journey super smooth in Japan. You can recharge
               them from metro stations and get them from the metro station.
             </div>
           </li>
           <li>
             <Heading level={5}>Calling and data card</Heading>
             <div>
-              The rechargeable card that can be used in all public transport
-              (bus, metro, trains ), some shopping outlets, vending machines,
-              etc.. This made my journey super smooth in Japan. You can recharge
-              them from metro stations and get them from the metro station.
+              I found that Jio in India has good plans for calling and I decided
+              to buy only data card in Japan. Seems like India is the only
+              country where Internet is extremely cheap. So cheap that many
+              times cellular network provide free data. At the time of writing,
+              Vodafone is giving me 1 GB free everyday at zero cost.
+              <p>
+                I bought a Japanese data card (SoftBank). It was 3 GB data for
+                30 days and costed me around ¥5,500. Though you will find wifi
+                most of the places and you won’t require your data much.
+              </p>
             </div>
           </li>
           <li>
             <Heading level={5}>Tax</Heading>
             <div>
-              In my research, I came to know that you can rebate an 8% consumer
-              tax when you purchase consumers and good worth of ¥5,400 from the
-              same shop in a single day.
+              In my research, I came to know that you can rebate 8% consumer tax
+              when you purchase consumers and good worth of ¥5,400 from the same
+              shop in a single day.
             </div>
           </li>
           <li>
@@ -407,7 +414,7 @@ const BeforeYouGo = () => (
               is way cheaper than using an IC card. I usually opted for a single
               day and sometimes multiple days pass.
             </div>
-            Fun fact - never boarded the wrong metro in my 11 days journey.
+            Fun fact - never boarded a wrong metro in my 11 days journey.
           </li>
         </ul>
 
@@ -416,10 +423,9 @@ const BeforeYouGo = () => (
         </h2>
 
         <p>
-          Though needs are an individual choice there are few that I want to
+          Though needs are an individual choice but there are few that I want to
           advise you. These things apply to all your domestic and international
           travel. Again please do your research and make an informed decision.
-          Click here to download the complete document.
         </p>
 
         <ul>
@@ -445,8 +451,7 @@ const BeforeYouGo = () => (
             <Heading level={5}>Shorts</Heading>
             <div>
               Do carry two pairs of shorts to wear at night or when you want to
-              take morning walks. I usually avoid wearing shorts when I start my
-              day.
+              take morning walks.
             </div>
           </li>
           <li>
@@ -469,7 +474,7 @@ const BeforeYouGo = () => (
             <div>
               Sometimes you need to tie things and you don’t have anything. It
               is always handy to carry a packet of a rubber band. Though I
-              didn’t require in Japan I bet it comes in handy many times.
+              didn’t require in Japan I bet it comes in handy many situations.
             </div>
           </li>
         </ul>
