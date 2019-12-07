@@ -47,10 +47,10 @@ const Kyoto = () => (
           Day 7{" "}
         </h2>
         <p className="drop-caps">
-          I’m done with my breakfast in my Osaka hostel and waiting for my towel
-          to dry. It's time to leave Osaka and explore Nara and Kyoto
-          prefectures. I found one cheap hostel with breakfast in Kyoto called
-          Guest House Oumi.
+          I’ve finished my breakfast in my Osaka hostel and waiting for my towel
+          to dry before I leave for Kyoto. It was time to leave Osaka and
+          explore Nara and Kyoto prefectures. I found one cheap hostel with
+          breakfast in Kyoto named Guest House Oumi.
         </p>
         <p>
           My check in time is 05:00 in the evening but if I want to keep my
@@ -60,7 +60,7 @@ const Kyoto = () => (
         <p>
           Isn't it weird that check in times are usually after 01:00 PM in
           Japan. I bet this is because this cleanliness obsessed country needs
-          more time in making your bed perfect.
+          more time in making your bed and experience perfect.
         </p>
         <hr />
         <p>
@@ -68,19 +68,19 @@ const Kyoto = () => (
           but before that I have to make a plan.
         </p>
         <p>
-          I booked the bus in hostel itself and then left for Kyoto. It took me
-          more than an hour to reach my new destination. So far I loved the
-          city. It's like you are in the countryside of Japan. My guesthouse is
-          amazing. I decided to do three things before I go to the guest house.
-          I will visit a nearby castle, shrine and at last will do Onsen. It
-          will be fun.
+          I booked the bus from Kyoto to Tokyo in hostel itself and then left
+          for Kyoto. It took me more than an hour to reach my new destination.
+          So far I loved the city. It's like you are in the countryside of
+          Japan. My guesthouse is amazing. I decided to do three things before I
+          go to the guest house. I will visit a nearby castle, shrine and at
+          last will do Onsen. It will be fun.
         </p>
         <p>
           Right now I'm again at Doutor coffee. I had a chicken sandwich and had
-          a cold coffee. The Nijō castle will close at 05 p.m. so I will visit
-          castle first then Shrine (Money shrine) then Onsen near my guesthouse.
-          Seems like I have to prepare myself for walking because it's Kyoto and
-          I don't see much public transport.
+          a cold coffee. The Nijō castle will get closed at 05:00 PM. I will
+          visit castle first then Shrine (Money shrine) then Onsen near my
+          guesthouse. Seems like I have to prepare myself for walking because
+          it's Kyoto and I don't see much public transport.
         </p>
         <p>
           I was so tired that I couldn't cover the Imperial Palace. Anyway
@@ -100,9 +100,9 @@ const Kyoto = () => (
         </p>
         <p>
           I didn’t go to open bath area as I was feeling shy. I was the only
-          foregin tourist there and it was a bit odd for me. I spent time there
-          and then it was time to go to the hostel after around 8-10 Kms. of
-          walk in 36 °C.
+          foregin tourist there and it was a bit odd for me. I spent some time
+          there and then it was time to go to the hostel after around 8-10 Kms.
+          of walk in 36 °C.
         </p>
         <p>
           I went to the hostel where I met one Japanese old person. He was
@@ -110,8 +110,7 @@ const Kyoto = () => (
           years ago. He was a nice and funny guy.
         </p>
         <p>
-          He helped me with transport to Arashiyama. He tried to help me in
-          English and Japanese.
+          He helped me with transport to Arashiyama in English and Japanese.
         </p>
 
         <figure className="page-container__photo">
@@ -149,7 +148,7 @@ const Kyoto = () => (
         </p>
 
         <p>
-          It is a 10 minutes train rider from Nijō station. I went there and
+          It is a 10 minutes train ride from Nijō station. I went there and
           explored one shrine. I took some amazing photos. When I was leaving
           the forest I met Dashintha. We greeted each other and I left. I had
           two more places to cover which was Kimono forest and one bridge. I met
@@ -158,7 +157,7 @@ const Kyoto = () => (
         </p>
 
         <p>
-          I spotted owl cafe and Japan known for weird cafe. We both agreed to
+          I spotted owl cafe and Japan known for weird cafes. We both agreed to
           go and experience it. We paid ¥600-¥800 and went inside with basic
           instructions. Though they don’t serve coffee but you can buy combine
           entry for owl and cat cafes where you can drink coffee.
@@ -166,27 +165,27 @@ const Kyoto = () => (
 
         <p>
           It was an amazing experience. We took lots of good photos and had fun
-          with owls. After that we decided to go to Kyoto station and had lunch
-          there. After struggling to find Yoshinoya we had to settle for
-          McChicken burger. After eating we went to Kiyomizu-dera and spent a
-          few hours there.
+          with owls. After that we decided to go to Kyoto station for lunch.
+          After struggling to find Yoshinoya we had to settle for McChicken
+          burger. After eating we went to Kiyomizu-dera and spent a few hours
+          there.
         </p>
 
         <p>
           It was almost sunset and we rushed to Fushimi Inari Taisha. A place
           where many torii gates are there. At this point, I was exhausted.
           Though with rest at multiple points we were able to hike to the top
-          and the view was worth. We sat there for half an hour and then decided
-          to leave for our destinations. We bought beers and I was drinking
-          while walking and in the train.
+          and the view was worthy. We sat there for half an hour and then
+          decided to leave for our destinations. We bought beers and I was
+          drinking while walking and in the train.
         </p>
 
         <p>
           He alighted at the next station from Fushimi and i got down at Nijō
           station. I went to KFC and ordered medium size french fries and a
-          vegetable stuff. It was my dinner and then I went to sleep. The was
-          long and it was interesting to learn about Japaneses culture from an
-          outsider who was living here for more than 1.5 years.
+          vegetable stuff. It was my dinner and then I went to sleep. The day
+          was long and it was interesting to learn about Japaneses culture from
+          an outsider who was living here for more than 1.5 years.
         </p>
         <h2 id="day9" className="page-container__heading">
           Day 9
