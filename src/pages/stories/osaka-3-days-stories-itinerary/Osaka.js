@@ -49,9 +49,8 @@ const Kyoto = () => (
           Day 4{" "}
         </h2>
         <p className="drop-caps">
-          {" "}
-          I woke up early as I wanted to go to Osaka for my next 3 days journey.
-          I woke up at 07:45 and went for a walk this time not in the park but
+          I woke up early as my next destination for next 3 days is Osaka. I
+          woke up at 07:45 and went for a walk this time not in the park but
           around the park.
           <br />
           Derma was kind enough to offer me bread and tea for breakfast. The
@@ -64,22 +63,21 @@ const Kyoto = () => (
         </p>
         <p>
           I booked the train from Tokyo station. With this boarding, I declare
-          that I never boarded the wrong train in Tokyo. A100% Success rate.
+          that I never boarded the wrong train in Tokyo. A 100% success rate.
         </p>
         <p>
           I went to Tokyo station and I was hungry. I bought an apple pie (ready
-          to eat) but couldn't find a cheap coffee shop. My time in Shinkansen
-          was near. Though, I asked the officer about the platform (or track
-          number). the Japanese transport system is easy to navigate. There is a
-          very rare chance that you will ask someone.
+          to eat) but couldn't find a cheap coffee shop. My time for boarding
+          Shinkansen was near. An officer helped me to know about the platform
+          (or track number). The Japanese transport system is easy to navigate.
+          There is a very rare chance that you will ask someone.
         </p>
         <p>
           I boarded the train and started looking for accommodation as I didn't
-          have anything. No itinerary. No accommodation. Seems like Mr. Singh
-          has cracked how to travel.
+          have anything. No itinerary. No accommodation.
         </p>
         <p>
-          I booked the hostel name Funtoco Backpackers Namba And host Yuki was
+          I booked the hostel name Funtoco Backpackers Namba And owner Yuki was
           very welcoming.
         </p>
         <p>
@@ -89,7 +87,8 @@ const Kyoto = () => (
         </p>
         <p>
           Before heading to the canal, I stopped at a restaurant where with some
-          struggle I had chicken Meatballs (3 pieces) and a beer.
+          struggle to place the order. I had chicken Meatballs (3 pieces) and a
+          beer.
           <br />
           The total bill was ¥1,080 which is decent. I see their sitting
           arrangement is different and the staff was helpful.
@@ -105,16 +104,16 @@ const Kyoto = () => (
 
         <p>
           My hostel is around 15 minutes away. Let me listen to music now. I was
-          10% high with that beer and singing songs to the waitress and they
+          bit high with that beer and singing songs to the waitress and they
           were smiling. Haha.
         </p>
         <h2 id="day5" className="page-container__heading">
           Day 5
         </h2>
         <p className="drop-caps">
-          I woke up around 07:45 a.m. and decided to go on a walk, as usual, I
+          I woke up around 07:45 A.M. and decided to go on a walk, as usual, I
           found a park nearby it was deserted park and no one was there. There
-          were weird noises in the park-like you are in the jungle. I forgot to
+          were weird noises in the park-like you are in a jungle. I forgot to
           take coins and key code with me. The door is locked until 9:00 a.m.
           and I have to take two more 10 minutes walks.
         </p>
@@ -124,13 +123,14 @@ const Kyoto = () => (
           coffee. I had two sets of bread and Japanese tea.
         </p>
         <p>
-          I put my clothes for laundry and give it to Yuki. The laundry cost me
-          ¥600. but I feel I need it.
+          I put my clothes for laundry and give it to Yuki. The laundry costed
+          me ¥600 but I feel I needed it.
         </p>
         <p>
-          I was talking to 1 British guy about the cost. We Indians get coffee
+          I was talking to a British guy about the cost. We Indians get coffee
           at ¥6 but in Japan, I am paying ¥270 every time. I know there is a
-          hell lot of difference but there is a lot of difference in price too.
+          hell lot of difference in experience but there is a lot of difference
+          in price too.
         </p>
         <p>
           Today I realized that an itinerary or at least you should have a list
@@ -158,20 +158,19 @@ const Kyoto = () => (
         </p>
 
         <p>
-          Alright. I deboarded at one station and walked around 20 minutes to
+          Alright I deboarded at one station and walked around 20 minutes to
           reach the castle. There is one Museum in the castle premise. I
           explored the castle and with such a large area and walking in 36°C.
-          made me an easy (not health-wise but mood-wise).
+          made me an uneasy.
         </p>
         <p>
-          I stopped at a few places and then finally got out of the area. I was
-          hungry and found one Lawson outlets.
+          I stopped at a few places to feel good and then finally got out of the
+          area. I was hungry and found one Lawson outlets.
           <br />I picked up a noodle box and ate outside the outlet. I still
           don't know how to use chopsticks effectively but I can do manageable
           work with it. After this, I wanted to go out but decided to stop at
           Doutor coffee before I go to the hostel. I am writing this experience
-          from a coffee house in which it has been around 45 minutes. Whoa! ¥270
-          is justified.
+          from a coffee house in which it has been around 45 minutes.
         </p>
 
         <p>
@@ -181,8 +180,8 @@ const Kyoto = () => (
         </p>
 
         <p>
-          Ok, let me buy something to eat. I will write after I go out and
-          experience more.
+          [After few minutes] Ok, let me buy something to eat. I will write
+          after I go out and experience more.
         </p>
 
         <p>
@@ -216,7 +215,7 @@ const Kyoto = () => (
           waiting (as long queue was mentioned on the Internet). I won’t be able
           to describe that unique experience but I have something to show. A
           photograph with a cute maid. I asked her to take a photo in Bollywood
-          style and I have that instant photograph with me.{" "}
+          style and I have that instant photograph with me.
         </p>
 
         <figure className="page-container__photo">
@@ -239,7 +238,7 @@ const Kyoto = () => (
         <p>
           Now I was 400 meters away from my hostel. I came to the hostel and
           writing this sentence from the common area. My plan for the next day
-          is sort of done. I will soon hug my bed.{" "}
+          is sort of done. I will soon hug my bed.
         </p>
 
         <p>That’s all from my Day 5 experience.</p>
@@ -268,11 +267,14 @@ const Kyoto = () => (
         <p>
           I visited the Hōzenji temple which is a small temple located in a very
           busy street. I had Octopus at one food stall (the story is documented
-          in the video below) and headed to explore Amerikamura (American
-          village) where you will find young hippie people and lots of shopping
-          stores. The temperature is 34 °C and will move my ass when it is 2 °C
-          down. Let me figure out a place where I can go before I can cover my
-          two other places.
+          in this{" "}
+          <a href="https://youtu.be/H6CUNHKiyLk" target="_blank">
+            video
+          </a>
+          ) and headed to explore Amerikamura (American village) where you will
+          find young hippie people and lots of shopping stores. The temperature
+          is 34 °C and will move my ass when it is 2 °C down. Let me figure out
+          a place where I can go before I can cover my two other places.
         </p>
         <p>
           I thought why not go to Hirakata T-SITE and check out one of the best
@@ -289,7 +291,7 @@ const Kyoto = () => (
           a staff member and she helped me with the floor number. I went there
           and saw a magnificent bookshelf. I asked a guy to take my photo and
           that lovely person took more than 35 photos but I’m happy as few of
-          them are really good.{" "}
+          them are really good.
         </p>
 
         <figure className="page-container__photo">
@@ -315,9 +317,10 @@ const Kyoto = () => (
         <p>You will get to know all these when I resume it in the evening.</p>
 
         <p>
-          So I spent some time in the cafe and decided to stroll around Den Den
-          town and then to Dōtonbori. After that, I will have dinner and sleep.
-          In the morning I will checkout. I will book a hostel for Kyoto.
+          [After few hours] So I spent some time in the cafe and decided to
+          stroll around Den Den town and then to Dōtonbori. After that, I will
+          have dinner and sleep. In the morning I will checkout. I will book a
+          hostel for Kyoto.
         </p>
         <p>I want to get Japanese haircut and Onsen in those 3 days.</p>
         <FooterBreadcrumb
