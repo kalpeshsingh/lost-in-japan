@@ -12,7 +12,7 @@
    ========================================================================== */
 :root {
   --bg-layout: hsl(36, 56%, 96%);
-  --color-crimson: crimson;
+  --color-crimson: hsl(348, 71%, 47%);
   --color-green-white: hsl(90, 22%, 91%);
   --color-athens-grey: hsl(246, 22%, 91%);
   --color-link-water: hsl(204, 22%, 91%);
