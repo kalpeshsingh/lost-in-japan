@@ -41,9 +41,9 @@ const About = () => (
         </p>
 
         <p>
-          So this time I got to apply my travel expertise for my first International travel. I
-          hope this guide will help you to learn about Japan and my
-          experiences will help you to plan your trip better.
+          So this time I got to apply my travel learning for my first
+          International travel. I hope my learning will help you to plan your
+          trip better and this guide will help you to learn more about Japan.
         </p>
 
         <p>
@@ -76,11 +76,12 @@ const About = () => (
           mind if you buy me a coffee.
         </p>
         <p>
-          Do connect or have additional questions, feel free to @ me on{" "}
+          Do connect and feel free to @ me on{" "}
           <a href="https://twitter.com/knowkalpesh" target="_blank">
             Twitter
           </a>{" "}
-          or if you are in Bengaluru then let's meet and share stories over
+          for questions or if you are in Bengaluru then let's meet and share
+          stories over
           <span role="img" aria-label="beers">
             🍻
           </span>{" "}
