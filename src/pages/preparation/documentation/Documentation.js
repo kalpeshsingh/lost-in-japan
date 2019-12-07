@@ -31,7 +31,7 @@ const Documentation = () => (
             <a href="#visa-documents">Visa documents</a>
           </li>
         </ul>
-        <div className="page-container__ts">6 min 49 sec read time </div>
+        <div className="page-container__ts">4 minute read time </div>
       </aside>
       <div className="page-container__right">
         <p>
