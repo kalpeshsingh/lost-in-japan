@@ -268,7 +268,7 @@ const Kyoto = () => (
           I visited the Hōzenji temple which is a small temple located in a very
           busy street. I had Octopus at one food stall (the story is documented
           in this{" "}
-          <a href="https://youtu.be/H6CUNHKiyLk" target="_blank">
+          <a href="https://youtu.be/H6CUNHKiyLk" target="_blank" rel="noopener" rel="noreferrer">
             video
           </a>
           ) and headed to explore Amerikamura (American village) where you will

@@ -31,11 +31,11 @@ const Layout = ({ children, type }) => {
         stated.
           <small className="site-footer__credit">
             Credits: Torii gate icon by{" "}
-            <a href="https://www.iconfinder.com/Ruslancorel" target={"_blank"}>
+            <a href="https://www.iconfinder.com/Ruslancorel" target={"_blank"} rel="noopener" rel="noreferrer">
               Rudez Studio
             </a>{" "}
             and Passport icon by{" "}
-            <a href="https://www.iconfinder.com/perdanakun" target={"_blank"}>
+            <a href="https://www.iconfinder.com/perdanakun" target={"_blank"} rel="noopener" rel="noreferrer">
               Conania
             </a>
           </small>

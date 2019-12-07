@@ -17,10 +17,10 @@ class FooterBreadcrumb extends Component {
           <div>{left.label} </div>
         </Link>
         {right && (
-          <a href={right.link}>
+          <Link to={right.link}>
             <div className="footer-breadcrumb__right-subtitle">Read next →</div>
             <div>{right.label}</div>
-          </a>
+          </Link>
         )}
       </div>
     )

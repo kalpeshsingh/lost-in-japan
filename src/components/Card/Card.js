@@ -9,7 +9,7 @@ const Card = ({ title, subtitle, image, link }) => {
   console.log("image", image)
   return (
     <Link to={link} className="card">
-      <img className="card__image" src={image} />
+      <img alt="" className="card__image" src={image} />
       <h1 className="card__title">{title}</h1>
       <h4>{subtitle}</h4>
     </Link>

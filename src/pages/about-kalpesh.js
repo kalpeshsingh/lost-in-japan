@@ -77,7 +77,7 @@ const About = () => (
         </p>
         <p>
           Do connect and feel free to @ me on{" "}
-          <a href="https://twitter.com/knowkalpesh" target="_blank">
+          <a href="https://twitter.com/knowkalpesh" target="_blank" rel="noopener" rel="noreferrer">
             Twitter
           </a>{" "}
           for questions or if you are in Bengaluru then let's meet and share
