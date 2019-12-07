@@ -128,7 +128,7 @@ const IndexPage = () => (
         <span role="img" aria-label="Books shelf">
           📚
         </span>
-        Largest book shelf in Osaka
+        Witnessed largest book shelf in Osaka
       </li>
       <li>
         <span role="img" aria-label="Couchsurfing">
