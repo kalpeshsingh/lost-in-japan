@@ -50,26 +50,27 @@ const Kyoto = () => (
           Yasukuni shrine and writing my two days of experience. I wanted to
           write down my experiences daily but I had to walk a lot in the heat
           (33 °C - 35 °C) and then I love to sleep when I reach my host’s house.
-          So far I've overcome challenges like transport and food (only 40%
-          solved). Rest details under respective days.
+          So far I've overcome challenges like transport and food (some extent).
+          Rest details under respective days.
         </p>
+        <hr />
         <h2 id="day1" className="page-container__heading">
           Day 1{" "}
         </h2>
         <p className="drop-caps">
-          I reached Narita airport and cleared my immigration and customs. I
-          then boarded a bus (Tokyo Limousine bus) and headed to Derma’s (my
-          host) office. I sat next to one Vietnamese guy. I was so tired that I
-          wasn’t excited that I’m on foreign soil. The bus was supposed to take
-          70-80 minutes but the driver announced that due to traffic he will
-          de-tour. The information display was so helpful that I got down to
-          Shibuya without any issue.
+          I reached Narita airport and cleared immigration and customs. I
+          boarded a bus (Tokyo Limousine bus) and headed to Derma’s (my host)
+          office. I sat next to one Vietnamese guy. I was so tired that I wasn’t
+          excited that I’m on foreign soil. The bus was supposed to take 70-80
+          minutes but the driver announced that due to traffic he will de-tour.
+          The information display was so helpful that I got down to Shibuya
+          without any issue.
         </p>
 
         <p>
           Now, this was the moment where I had to face Tokyo transport (Subway
           and metro). I took help from Google Maps and reached the platform. I
-          bought one Suica card from the station. It was easy that what I
+          bought one Suica card from the station. It was easy than what I
           thought. Suica card is accepted in the bus, subway, and many stores. I
           bought one data card from the airport itself. It was hell expensive. I
           paid ¥5,500 for 3 GB data for 30 days.
@@ -79,7 +80,7 @@ const Kyoto = () => (
           Again with the help of Google Maps and direction photos shared by
           Derma I reached her office and kept my luggage in the storeroom. The
           best part is the key lock and the key was there in a plant pot and I
-          had instructions on PDF file to open that lock.{" "}
+          had instructions on PDF file to open that lock.
         </p>
 
         <p>
@@ -91,7 +92,7 @@ const Kyoto = () => (
         <p>
           I was trying to understand the subway system and don’t want to go far
           as I will struggle to come back. So I walked a lot and boarded a few
-          local trains. I went to see a grand called Shinjuku Gyoen National
+          local trains. I went to see a garden called Shinjuku Gyoen National
           Garden but it was closed. What luck in Japan on day one!{" "}
         </p>
 
@@ -107,25 +108,25 @@ const Kyoto = () => (
         </figure>
 
         <p>
-          It was now around 05:00 and I just finished my coffee from Doutor a
-          Japanese chain for coffee. I somehow managed to reach the location by
-          05:20 PM. I waited till 05:45 PM and met Derma finally.
+          It was now around 05:00 and I just finished my coffee at Doutor cafe -
+          a Japanese chain for coffee. I somehow managed to reach the location
+          by 05:20 PM. I waited till 05:45 PM and finally met Derma .
         </p>
 
         <p>
           We both left for Kajigaya station which is around 45 minutes from
-          Shinjuku station. We went to the supermarket where she bought stuff
-          and I bought a Sushi package. This was the first time I was trying
-          Japanese food.
+          Shinjuku station. We went to the supermarket where she bought her
+          dinner stuff and I bought a Sushi package. This was the first time I
+          was trying Japanese food.
         </p>
 
         <p>
-          I somehow managed to eat 40% of Sushi with some nausea. I took a bath
-          and went to bed enjoy my sleep.
+          I somehow managed to eat few Sushi with some nausea. I took a bath and
+          went to bed enjoy my sleep.
         </p>
 
         <p>
-          There might be a few things that I missed because it day 3 and my
+          There might be a few things that I missed because it's day 3 and my
           detailed memories are fading away.
         </p>
 
@@ -135,8 +136,9 @@ const Kyoto = () => (
         </p>
 
         <p>
-          Okay, I didn't get lunch so I headed to Seven-Eleven and had bread and
-          Noodles. The rest is documented on day two.
+          [After few minutes] Okay, I didn't get lunch so I headed to
+          Seven-Eleven and had bread and Noodles. The rest is documented in day
+          2 section.
         </p>
         <h2 id="day2" className="page-container__heading">
           Day 2
@@ -144,21 +146,21 @@ const Kyoto = () => (
         <p className="drop-caps">
           I woke up late in the morning and asked Derma if there is any park
           nearby. I wanted to stroll around. One park was 200 steps away and I
-          went to the park. There were only a few people were there.
+          went to the park. There were very few people in the park.
         </p>
 
         <p>
           I came back and had breakfast. I remember that I had tea but not sure
-          what I had apart from that.{" "}
+          what I had apart from that.
         </p>
         <p>
           {" "}
-          I took a shower and headed for Shibuya area eyewitness the Shibuya
-          crossing took videos and photographs.
+          I took a shower and headed to Shibuya district. At Shibuya crossing I
+          took videos and photographs.
         </p>
         <p>
-          From there I decided to visit Asakusa house on my way to the station I
-          found a Lipton fruity and bought. I paid ¥600 for that tea. 😑
+          From there I decided to visit Asakusa house, on my way to the station
+          I found a Lipton fruity and bought. I paid ¥600 for that tea. 😑
         </p>
 
         <figure className="page-container__photo">
@@ -170,23 +172,26 @@ const Kyoto = () => (
           After spending time at Asakusa house I headed towards Omotesandō
           Station. Harajuku area is at a walkable distance from the station and
           the street is filled with kid's shops. Teenagers will wear fancy
-          dresses and come to Street. The street name is Takeshita Street. I had
-          ice cream there.{" "}
+          dresses and come on street. The street name is Takeshita Street. I had
+          ice cream there.
         </p>
         <p>
           Though I checked out a few shops on the street but didn't buy
           anything. After that went to the Meiji Shrine.{" "}
         </p>
-        <p>I went to the house and bought bread for my dinner and breakfast.</p>
+        <p>
+          I went to the host's house and bought bread for my dinner and
+          breakfast.
+        </p>
 
         <h2 id="day3" className="page-container__heading">
           Day 3{" "}
         </h2>
 
         <p className="drop-caps">
-          Let's start with my morning. I had brought bread in the night, I eat
+          Let's start with my morning. I had brought bread in the night, I had
           them for dinner and now remaining qualified as my breakfast. Derma was
-          kind to prepare tea for me. It was a black tea.
+          kind to prepare tea for me. It was a black Japanese tea.
         </p>
 
         <p>
@@ -196,17 +201,17 @@ const Kyoto = () => (
 
         <p>
           On Day 2, I already bought my Shinkansen ticket. It will be an amazing
-          experience to board in the world's fastest train. The person was kind
-          enough to give windows seat from where I can see magnificent Mount
-          Fuji.
+          experience to board in the world's fastest train. The booking operator
+          was kind enough to book window seat for me. I can see magnificent
+          Mount Fuji from that seat that's what he assured.
         </p>
 
         <p>
           For day 3, I had a few places in my mind. I boarded a train with
           Derma, she got down at the next station and I got down at station from
           where Yasukuni Shrine is at walkable distance. I went to a shrine and
-          explored it. There was a restroom with air-conditioned it was blessing
-          in Tokyo’s summer.
+          explored it. There was a restroom with air-conditioned. It was
+          blessing in Tokyo’s summer.
         </p>
 
         <p>
@@ -217,7 +222,7 @@ const Kyoto = () => (
 
         <p>
           I don't remember what are the things that happened between this place
-          in my next station which was Asakusa Shrine. I know I took a long
+          and my next station which was Asakusa Shrine. I know I took a long
           train journey and walked a lot. The Google Map report will tell me. So
           before I went to the Sumida river, I spent some time there and from
           there Sensoji temple and Asakusa shrine.
@@ -234,7 +239,6 @@ const Kyoto = () => (
           <figcaption>Kaminarimon gate, Sensō-ji temple</figcaption>
         </figure>
 
-        <p>I was successful took one time lapse video. It is really good.</p>
         <hr />
 
         <p>
