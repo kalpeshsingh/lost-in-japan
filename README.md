@@ -4,7 +4,7 @@
 
 Welcome to the Lost In Japan codebase.
 
-I bet you must have checked out the [Lost In Japan](https://lost-in-japan.kalpeshsingh.now.sh/) website and being a nerd you want to help me to fix and improve the codebase. I appreciate this fact and welcome your compliments or criticism on the codebase.
+I bet you must have checked out the [Lost In Japan](https://lost-in-japan.guide) website and being a nerd you want to help me to fix and improve the codebase. I appreciate this fact and welcome your compliments or criticism on the codebase.
 
 The goal was to keep consistency and best practices in the codebase but over time you lose interest and just code. That might be the story of this codebase too.
 
